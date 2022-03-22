@@ -2,3 +2,7 @@
 {
 	initech.innerctrl.GetClientCert();
 }
+
+function newgit_func()
+{
+}
