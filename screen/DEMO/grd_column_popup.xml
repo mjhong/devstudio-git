@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<map_list>
+	<map>
+		<screen version="2.0" scriptcode="java" title="고객조회" directory="/DEMO/" screenid="grd_column_popup" width="365" height="290" on_activate="eventfunc:screen_on_activate()"/>
+		<tab_order order_option="0" order_info="37,63"/>
+		<text control_id="35" autosize="0" x="82" y="0" width="283" height="30" font="굴림체,9,0,0,0,0" text="" gradient_effect="2" gradient_startcolor="00AE7F4B" gradient_endcolor="00C6A57E" line_gap="0" mousehover_color="00FF0000" mousehover_font="굴림체,9,0,0,0,0" mousehover_forecolor="00FF0000"/>
+		<rectangle control_id="33" x="0" y="0" width="120" height="30" back_color="00AB7E4B" border="0" transparent="0"/>
+		<rectangle control_id="34" x="6" y="0" width="8" height="30" back_color="00C9B096" border="0" transparent="0"/>
+		<text control_id="36" x="23" y="8" width="52" height="12" fore_color="00FFFFFF" back_color="00AB7E4B" font="굴림체,9,1,0,0,0" text="고객조회" line_gap="0" mousehover_color="00FF0000" mousehover_font="굴림체,9,0,0,0,0" mousehover_forecolor="00FF0000"/>
+		<grid control_id="37" name="grdList" x="6" y="54" width="354" height="200" font="굴림체,9,0,0,0,0" cell_dividerowcount="1" header_vertcount="0" header_font="굴림체,9,0,0,0,0" gradient_effect="1" gradient_endcolor="00D2D2D2" linenumber_show="1" vertscrollbar_style="2" in_index="1" on_keydown="eventfunc:grdList_on_keydown(objInst, keycode, bctrldown, bshiftdown, baltdown)" on_itemdblclick="eventfunc:grdList_on_itemdblclick(objInst, nDblClickRow, nDblClickColumn)">
+			<column>
+				<header title="고객번호"/>
+				<data width="140" backcolor="00FFFFFF" text_horzalign="1" max_length="11" meta_maxlength="" pattern="999-99999999" prefilldata="01200121212&#x0A;01213131211&#x0A;01312121467&#x0A;02312313134&#x0A;12143511223&#x0A;12312127345&#x0A;14131315235&#x0A;23123156232&#x0A;22234242356&#x0A;13315752432"/>
+			</column>
+			<column>
+				<header title="고 객 명"/>
+				<data width="155" backcolor="00FFFFFF" text_horzalign="1" max_length="20" meta_maxlength="" prefilldata="김기덕&#x0A;장덕봉&#x0A;김아람&#x0A;고승진&#x0A;이태호&#x0A;박상진&#x0A;이풍구&#x0A;장덕진&#x0A;김태호&#x0A;홍진수"/>
+			</column>
+			<headermegeinfo info=""/>
+		</grid>
+		<text control_id="62" x="6" y="36" width="204" height="12" fore_color="00FF0E0E" font="굴림체,9,1,0,0,0" text="정렬 가능 : 헤더를 클릭해주세요" line_gap="0" mousehover_color="00FF0000" mousehover_font="굴림체,9,0,0,0,0" mousehover_forecolor="00FF0000"/>
+		<pushbutton control_id="63" name="btnClose" x="128" y="262" width="100" height="20" font="굴림체,9,0,0,0,0" text="닫기" on_mouseup="eventfunc:btnClose_on_mouseup(objInst)" version="1.1"/>
+	</map>
+</map_list>

@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<map_list>
+	<map>
+		<screen version="2.0" scriptcode="java" title="grd_stat" directory="/DEMO/" screenid="grd_stat" width="842" height="592"/>
+		<xlinkdataset id="DS_DATA" desc="" columns="DATE:&quot;&quot;::&quot;20060713&#x0A;20060713&#x0A;20060713&#x0A;20060713&#x0A;20060713&#x0A;20060713&#x0A;20060714&#x0A;20060714&#x0A;20060714&#x0A;20060714&#x0A;20060714&#x0A;20060715&#x0A;20060715&#x0A;20060715&#x0A;20060715&#x0A;20060715&#x0A;20060715&#x0A;20060715&#x0A;20060716&#x0A;20060716&#x0A;20060716&#x0A;20060716&#x0A;20060716&#x0A;20060716&#x0A;&quot;:&quot;&quot;;NAME:&quot;&quot;::&quot;서무송&#x0A;임갑주&#x0A;임갑주&#x0A;김정순&#x0A;송달현&#x0A;임진성&#x0A;임진성&#x0A;임진성&#x0A;이종근&#x0A;이무성&#x0A;임용철&#x0A;장정자&#x0A;김순자&#x0A;박광규&#x0A;김인환&#x0A;곽영일&#x0A;윤행순&#x0A;노정자&#x0A;이지영&#x0A;김경자&#x0A;이정자&#x0A;이정자&#x0A;조영선&#x0A;김정자&#x0A;&quot;:&quot;&quot;;OVER_AMT:&quot;&quot;::&quot;193000&#x0A;334000&#x0A;55000&#x0A;89000&#x0A;149000&#x0A;158000&#x0A;149000&#x0A;204000&#x0A;415000&#x0A;194000&#x0A;42000&#x0A;174000&#x0A;74000&#x0A;88000&#x0A;312000&#x0A;33000&#x0A;251000&#x0A;37000&#x0A;500000&#x0A;328000&#x0A;278000&#x0A;176000&#x0A;58000&#x0A;344000&#x0A;&quot;:&quot;&quot;;OVER_CNT:&quot;&quot;::&quot;6&#x0A;9&#x0A;9&#x0A;1&#x0A;1&#x0A;19&#x0A;1&#x0A;2&#x0A;2&#x0A;9&#x0A;9&#x0A;2&#x0A;2&#x0A;9&#x0A;1&#x0A;9&#x0A;9&#x0A;7&#x0A;6&#x0A;1&#x0A;1&#x0A;9&#x0A;9&#x0A;9&#x0A;&quot;:&quot;&quot;;OVER_DAY:&quot;&quot;::&quot;847&#x0A;689&#x0A;355&#x0A;148&#x0A;116&#x0A;1988&#x0A;86&#x0A;1488&#x0A;374&#x0A;299&#x0A;24&#x0A;110&#x0A;8&#x0A;2206&#x0A;321&#x0A;872&#x0A;19&#x0A;451&#x0A;157&#x0A;2&#x0A;133&#x0A;38&#x0A;5631&#x0A;1337&#x0A;&quot;:&quot;&quot;"/>
+		<grid control_id="370" name="grdList" in_index="4" out_index="0" x="6" y="6" right="8" bottom="4" width="828" height="582" font="맑은 고딕,9,0,0,0,0" header_font="맑은 고딕,9,0,0,0,0" header_vertcount="0" header_height="22" cell_height="22" cell_dividerowcount="0" gradient_effect="1" linenumber_show="1" linenumber_hd_backcolor="00F0DCDC" linenumber_backcolor="00F0DCDC" checkrow_hd_backcolor="00F0DCDC" vertscrollbar_style="2" link_data="DS_DATA" statistics_row="0,00000000,00E3DBF7,00000000,00F0DCDC,00000001,00000001,&quot;합계&quot;,,:4,00000000,00E3DBF7,00000000,00F0DCDC,00000001,00000001,&quot;최대값&quot;,,:3,00000000,00E3DBF7,00000000,00F0DCDC,00000001,00000001,&quot;최소값&quot;,,:1,00000000,00E3DBF7,00000000,00D2D2D2,00000001,00000001,&quot;평균&quot;,,:2,00000000,00E3DBF7,00000000,00D2D2D2,00000001,00000001,&quot;갯수&quot;,,:5,00000000,00E3DBF7,00000000,00D2D2D2,00000001,00000001,&quot;칼럼별&quot;,,:6,00000000,00E3DBF7,00000000,00D2D2D2,00000001,00000001,&quot;사용자정의&quot;,,:" statistics_row_linenumber="0" mid_statistics="6,00000000,00C8FFFF,&quot;칼럼별&quot;,0:" column_sort="0" column_moveable="1" tabstop="0">
+			<column>
+				<header title="날짜"/>
+				<data width="170" text_horzalign="1" editable="1" meta_maxlength="" pattern="9999-99-99" cellmerge="1" link_data="DS_DATA:DATE" bargauge_transparent="0"/>
+			</column>
+			<column>
+				<header title="고객명" backcolor="00F0DCDC"/>
+				<data name="CUST_NAME" width="190" text_horzalign="1" editable="1" data_type="2" meta_maxlength="" link_data="DS_DATA:NAME" bargauge_transparent="0"/>
+			</column>
+			<column>
+				<header title="연체금액" backcolor="00F0DCDC"/>
+				<data name="AMOUNT" width="155" text_horzalign="2" editable="1" data_type="0" meta_maxlength="" pattern="ZZZ,ZZZ,ZZZ,ZZ9" link_data="DS_DATA:OVER_AMT" bargauge_transparent="0"/>
+			</column>
+			<column>
+				<header title="연체횟수" backcolor="00F0DCDC"/>
+				<data name="DELAY_COUNT" width="133" text_horzalign="2" editable="1" data_type="0" meta_maxlength="" pattern="ZZZ,ZZZ,ZZZ,ZZ9" statisticsrow_type="5" link_data="DS_DATA:OVER_CNT" bargauge_transparent="0"/>
+			</column>
+			<column>
+				<header title="연체일수" backcolor="00F0DCDC"/>
+				<data name="DAY_COUNT" width="121" text_horzalign="2" editable="1" data_type="0" meta_maxlength="" pattern="ZZZ,ZZZ,ZZZ,ZZ9" link_data="DS_DATA:OVER_DAY" bargauge_transparent="0"/>
+			</column>
+			<headermegeinfo info=""/>
+		</grid>
+	</map>
+</map_list>

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<map_list>
+	<map>
+		<screen version="2.0" scriptcode="none" title="grd_excel_popup" directory="/DEMO/" screenid="grd_excel_popup" width="270"/>
+		<tab_order order_option="0" order_info="190"/>
+		<rectangle control_id="130" x="8" y="10" width="254" height="480" back_color="00F0F0F0" border_color="00C8C8C8" transparent="0"/>
+		<grid control_id="190" name="gridColumnView" x="16" y="60" width="238" height="420" cell_height="20" font="돋움,9,0,0,0,0" cell_dividerowcount="1" cell_dividecolor="00F5F5F5" cell_linecolor="00C2BDB7" header_vertcount="0" header_font="굴림체,9,0,0,0,0" in_index="0">
+			<column>
+				<header title="구분" forecolor="00484135" backcolor="00EAE7DF"/>
+				<data width="93" forecolor="00333333" backcolor="00FFFFFF" meta_maxlength=""/>
+			</column>
+			<column>
+				<header title="값" forecolor="00484135" backcolor="00EAE7DF"/>
+				<data width="143" forecolor="00333333" backcolor="00FFFFFF" meta_maxlength=""/>
+			</column>
+			<headermegeinfo info=""/>
+		</grid>
+		<text control_id="91" autosize="0" x="20" y="20" width="232" height="28" fore_color="00674E32" back_color="00DEDAD1" font="돋움,9,1,0,0,0" text="상 세 보 기" border="1" horz_align="1" line_gap="0" mousehover_color="00FF0000" mousehover_font="굴림체,9,0,0,0,0" mousehover_forecolor="00FF0000"/>
+	</map>
+</map_list>

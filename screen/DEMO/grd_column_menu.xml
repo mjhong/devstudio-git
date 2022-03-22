@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<map_list>
+	<map>
+		<screen version="2.0" scriptcode="java" title="고객세부정보" directory="/DEMO/" screenid="grd_column_menu" width="276" height="140" on_load="eventfunc:screen_on_load()"/>
+		<tab_order order_option="0" order_info="8"/>
+		<image control_id="0" name="imgUser" autosize="0" x="8" y="36" width="88" height="95" image="/DEMO/gohyunjung.jpg" imagesize="1"/>
+		<text control_id="2" x="132" y="66" width="60" height="12" font="굴림체,9,0,0,0,0" text="생년월일 :" line_gap="0" mousehover_color="00FF0000" mousehover_font="굴림체,9,0,0,0,0" mousehover_forecolor="00FF0000" version="1.1"/>
+		<text control_id="5" name="txtDate" x="198" y="66" width="60" height="12" font="굴림체,9,0,0,0,0" text="2012.08.06" line_gap="0" mousehover_color="00FF0000" mousehover_font="굴림체,9,0,0,0,0" mousehover_forecolor="00FF0000" version="1.1"/>
+		<text control_id="6" autosize="0" x="2" y="1" width="272" height="30" font="굴림체,9,1,0,0,0" text="고객 상세 정보" gradient_effect="1" horz_align="1" line_gap="0" mousehover_color="00FF0000" mousehover_font="굴림체,9,0,0,0,0" mousehover_forecolor="00FF0000" version="1.1"/>
+		<pushbutton control_id="8" name="btnClose" x="232" y="115" width="36" height="18" font="굴림체,9,0,0,0,0" text="닫기" drawfocusrect="0" on_mouseup="eventfunc:btnClose_on_mouseup(objInst)" version="1.1"/>
+		<text control_id="1" x="132" y="43" width="60" height="12" font="굴림체,9,0,0,0,0" text="고 객 명 :" line_gap="0" mousehover_color="00FF0000" mousehover_font="굴림체,9,0,0,0,0" mousehover_forecolor="00FF0000" version="1.1"/>
+		<text control_id="4" name="txtName" autosize="0" x="198" y="42" width="72" height="12" font="굴림체,9,0,0,0,0" text="홍길동" line_gap="0" mousehover_color="00FF0000" mousehover_font="굴림체,9,0,0,0,0" mousehover_forecolor="00FF0000" version="1.1"/>
+		<image control_id="68" x="108" y="42" width="13" height="13" border="0" image="/DEMO/bltpopuptit.gif" imagesize="2"/>
+		<image control_id="69" x="108" y="63" width="13" height="13" border="0" image="/DEMO/bltpopuptit.gif" imagesize="2"/>
+		<rectangle control_id="70" x="1" y="1" width="275" height="139" border_width="1"/>
+		<text control_id="71" x="132" y="87" width="60" height="12" font="굴림체,9,0,0,0,0" text="비    고 :" line_gap="0" mousehover_color="00FF0000" mousehover_font="굴림체,9,0,0,0,0" mousehover_forecolor="00FF0000" version="1.1"/>
+		<text control_id="72" name="txtEtc" x="198" y="87" width="60" height="12" font="굴림체,9,0,0,0,0" text="2012.08.06" line_gap="0" mousehover_color="00FF0000" mousehover_font="굴림체,9,0,0,0,0" mousehover_forecolor="00FF0000" version="1.1"/>
+		<image control_id="73" x="108" y="84" width="13" height="13" border="0" image="/DEMO/bltpopuptit.gif" imagesize="2"/>
+	</map>
+</map_list>

@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<map_list>
+	<map>
+		<screen version="2.0" scriptcode="none" title="grd_multiline" directory="/DEMO/" screenid="grd_multiline" width="842" height="592"/>
+		<tab_order order_option="0" order_info="386,398"/>
+		<text control_id="397" x="6" y="6" right="767" bottom="566" width="69" height="20" text=" 직원정보" font="맑은 고딕,9,0,0,0,0" text_margin="0,0,0,0" line_gap="0" image="/DEMO/bltpopuptit.gif" mousehover_color="00FF0000" mousehover_forecolor="00FF0000"/>
+		<pushbutton control_id="386" name="btnMerge" x="762" y="6" right="8" bottom="566" width="72" height="20" text="검 색" font="맑은 고딕,9,0,0,0,0" fore_color="00FFFFFF" gradient_effect="1" gradient_startcolor="00DABABC" gradient_endcolor="00A5696E"/>
+		<multilinegrid control_id="398" in_index="0" x="6" y="36" right="8" bottom="6" width="828" height="550" font="맑은 고딕,9,0,0,0,0" header_font="맑은 고딕,9,0,0,0,0" header_horzcount="2" header_vertcount="0" header_height="22" cell_height="22" cell_dividerowcount="1" gradient_effect="1" linenumber_show="1" use_checkrow="1" multi_checkrow="1" samplerows="4" statistics_row_linenumber="0">
+			<column row="0">
+				<header title="고객명"/>
+				<data backcolor="00FFFFFF" text_horzalign="1" meta_maxlength="" prefilldata="홍길동&#x0A;유학수&#x0A;김영재" blankiszero="0"/>
+			</column>
+			<column row="0">
+				<header title="고객번호"/>
+				<data backcolor="00FFFFFF" text_horzalign="1" meta_maxlength="" prefilldata="1245478&#x0A;5475634&#x0A;2156467" blankiszero="0"/>
+			</column>
+			<column row="0">
+				<header title="주민번호" image="/계정계/Phone.gif"/>
+				<data width="116" backcolor="00FFFFFF" text_horzalign="1" meta_maxlength="" prefilldata="710516-1250465&#x0A;750418-1120124&#x0A;761106-1024568" blankiszero="0"/>
+			</column>
+			<column row="0">
+				<header title="집 전화"/>
+				<data width="94" backcolor="00FFFFFF" text_horzalign="1" meta_maxlength="" prefilldata="02-2154-6598&#x0A;02-5754-5721&#x0A;02-6484-6854" blankiszero="0"/>
+			</column>
+			<column row="0">
+				<header title="우편번호"/>
+				<data width="88" backcolor="00FFFFFF" text_horzalign="1" meta_maxlength="" prefilldata="123-345&#x0A;141-623&#x0A;522-451" blankiszero="0"/>
+			</column>
+			<column row="0">
+				<header title="기본주소"/>
+				<data width="311" backcolor="00FFFFFF" meta_maxlength="" prefilldata="서울특별시 은평구 구산동&#x0A;서울특별시 구로구 구로3동&#x0A;서울특별시 양천구 목동" blankiszero="0"/>
+			</column>
+			<column row="1">
+				<header title="고객명"/>
+				<data backcolor="00FFFFFF" text_horzalign="1" meta_maxlength="" prefilldata="홍길동&#x0A;유학수&#x0A;김영재" blankiszero="0"/>
+			</column>
+			<column row="1">
+				<header title="고객번호"/>
+				<data backcolor="00FFFFFF" text_horzalign="1" meta_maxlength="" prefilldata="1245478&#x0A;5475634&#x0A;2156467" blankiszero="0"/>
+			</column>
+			<column row="1">
+				<header title="메일주소" image="/계정계/MailIcon.gif"/>
+				<data width="116" backcolor="00FFFFFF" text_horzalign="1" meta_maxlength="" prefilldata="admin@empla.com&#x0A;mjhong@daum.net&#x0A;hyus@gmail.com" blankiszero="0"/>
+			</column>
+			<column row="1">
+				<header title="휴대 전화"/>
+				<data width="94" backcolor="00FFFFFF" text_horzalign="1" meta_maxlength="" prefilldata="010-6256-5751&#x0A;019-9856-5642&#x0A;010-4485-5485" blankiszero="0"/>
+			</column>
+			<column row="1">
+				<header title="주소"/>
+				<data width="88" backcolor="00FFFFFF" meta_maxlength="" prefilldata="121-131 서울 아파트 101동 1210호&#x0A;31 한신 IT 타워 1205호&#x0A;34-63 목동 아파트 310동 201호" blankiszero="0"/>
+			</column>
+			<column row="1">
+				<header title="주소"/>
+				<data width="311" backcolor="00FFFFFF" meta_maxlength="" prefilldata="121-131 서울 아파트 101동 1210호&#x0A;31 한신 IT 타워 1205호&#x0A;34-63 목동 아파트 310동 201호" blankiszero="0"/>
+			</column>
+			<headermegeinfo info="1,4,1,5:0,0,1,0:0,1,1,1:"/>
+		</multilinegrid>
+	</map>
+</map_list>

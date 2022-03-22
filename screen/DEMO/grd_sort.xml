@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<map_list>
+	<map>
+		<screen version="2.0" scriptcode="none" title="grd_sort" directory="/HYUNDAI/" screenid="grd_sort" width="600"/>
+		<xlinkdataset id="DS_CODE" desc="" columns="CODE:&quot;&quot;::&quot;1&#x0A;2&#x0A;3&#x0A;&quot;:&quot;&quot;;COMMENT:&quot;&quot;::&quot;한국&#x0A;미국&#x0A;중국&#x0A;&quot;:&quot;&quot;"/>
+		<grid control_id="0" name="grdList" x="6" y="6" width="588" height="270" cell_height="20" font="굴림체,9,0,0,0,0" cell_dividerowcount="1" header_vertcount="0" header_font="굴림체,9,0,0,0,0" header_height="20" header_clicksort="1" gradient_effect="1" linenumber_show="1" samplerows="20" multi_select="1" multi_checkrow="1" use_checkrow="1" in_index="4" version="1.2">
+			<column>
+				<header title="HANGUL"/>
+				<data width="135" backcolor="00FFFFFF" text_horzalign="1" editable="1" data_type="2" combobox_data="del=&apos;:&apos; pos=&apos;0&apos; style=&apos;1&apos; content=&apos;1:콤보박스데이터1&#x0D;&#x0A;2:콤보박스데이터2&#x0D;&#x0A;3:콤보박스데이터3&#x0D;&#x0A;4:콤보박스데이터4&#x0D;&#x0A;5:콤보박스데이터5&apos;" combobox_showbutton="0" combobox_buttonsize="0" meta_maxlength="" picklist_selstyle="1" prefilldata="a1&#x0A;a1&#x0A;a2&#x0A;a2&#x0A;a3&#x0A;a3&#x0A;a4&#x0A;a4&#x0A;a5&#x0A;a6"/>
+			</column>
+			<column>
+				<header title="ENGLISH"/>
+				<data width="185" backcolor="00FFFFFF" text_horzalign="1" editable="1" combobox_editable="0" combobox_showbutton="0" combobox_buttonsize="0" meta_maxlength="" picklist_selstyle="2" prefilldata="a&#x0A;b&#x0A;b&#x0A;b&#x0A;c&#x0A;c&#x0A;d&#x0A;d&#x0A;e&#x0A;e"/>
+			</column>
+			<column>
+				<header title="NUMBER"/>
+				<data width="189" backcolor="00FFFFFF" text_horzalign="1" editable="1" data_type="0" picklist_linkdata="DS_CODE:CODE:COMMENT:" combobox_editable="0" combobox_showbutton="0" combobox_buttonsize="0" meta_maxlength="" pattern="ZZ,ZZZ,ZZ9" prefilldata="1&#x0A;1&#x0A;1&#x0A;2&#x0A;2&#x0A;2&#x0A;3&#x0A;3&#x0A;3&#x0A;4"/>
+			</column>
+			<headermegeinfo info=""/>
+		</grid>
+	</map>
+</map_list>

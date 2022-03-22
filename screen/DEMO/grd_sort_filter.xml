@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<map_list>
+	<map>
+		<screen version="2.0" scriptcode="none" title="다중칼럼정렬" directory="/DEMO/" screenid="grd_sort_filter" width="842" height="592"/>
+		<grid control_id="371" in_index="7" out_index="0" x="6" y="6" right="4" bottom="2" width="832" height="584" font="맑은 고딕,9,0,0,0,0" header_font="맑은 고딕,9,0,0,0,0" header_vertcount="0" header_height="22" cell_height="22" cell_dividerowcount="1" header_clicksort="1" gradient_effect="1" linenumber_show="1" linenumber_hd_backcolor="00F0DCDC" linenumber_backcolor="00F0DCDC" checkrow_hd_backcolor="00F0DCDC" vertscrollbar_style="2" samplerows="30" statistics_row_linenumber="0" column_sort_disp="1" column_moveable="1" tabstop="0">
+			<column>
+				<header title="직원이름" backcolor="00F0DCDC"/>
+				<data width="149" text_horzalign="1" sorting="" meta_maxlength="" prefilldata="박간란&#x0A;이경문&#x0A;김경숙&#x0A;최경식&#x0A;홍경원&#x0A;박간란&#x0A;이경문&#x0A;김경숙&#x0A;최경식&#x0A;홍경원&#x0A;박간란&#x0A;이경문&#x0A;김경숙&#x0A;최경식&#x0A;홍경원&#x0A;박간란&#x0A;이경문&#x0A;김경숙&#x0A;최경식&#x0A;홍경원&#x0A;박간란&#x0A;이경문&#x0A;김경숙&#x0A;최경식&#x0A;홍경원&#x0A;박간란&#x0A;이경문&#x0A;김경숙&#x0A;최경식&#x0A;홍경원" bargauge_transparent="0"/>
+			</column>
+			<column>
+				<header title="직원번호" backcolor="00F0DCDC"/>
+				<data width="163" text_horzalign="1" meta_maxlength="" prefilldata="2030915&#x0A;2408618&#x0A;2380219&#x0A;1783292&#x0A;2644329&#x0A;2030915&#x0A;2408618&#x0A;2380219&#x0A;1783292&#x0A;2644329&#x0A;2030915&#x0A;2408618&#x0A;2380219&#x0A;1783292&#x0A;2644329&#x0A;2030915&#x0A;2408619&#x0A;2380219&#x0A;1783292&#x0A;2644329&#x0A;2030915&#x0A;2408619&#x0A;2380219&#x0A;1783292&#x0A;2644329&#x0A;2030915&#x0A;2408620&#x0A;2380219&#x0A;1783292&#x0A;2644329" bargauge_transparent="0"/>
+			</column>
+			<column>
+				<header title="부서명" backcolor="00F0DCDC"/>
+				<data width="138" text_horzalign="1" meta_maxlength="" prefilldata="총무부&#x0A;관리부&#x0A;총무부&#x0A;총무부&#x0A;총무부&#x0A;영업부&#x0A;기획부&#x0A;총무부&#x0A;총무부&#x0A;총무부&#x0A;총무부&#x0A;기술부&#x0A;총무부&#x0A;총무부&#x0A;총무부&#x0A;총무부&#x0A;총무부&#x0A;총무부&#x0A;관리부&#x0A;총무부&#x0A;총무부&#x0A;총무부&#x0A;개발부&#x0A;총무부&#x0A;총무부&#x0A;총무부&#x0A;총무부&#x0A;총무부&#x0A;총무부&#x0A;개발부" bargauge_transparent="0"/>
+			</column>
+			<column>
+				<header title="직급" backcolor="00F0DCDC"/>
+				<data width="157" text_horzalign="1" meta_maxlength="" prefilldata="부장&#x0A;차장&#x0A;과장&#x0A;부장&#x0A;과장&#x0A;차장&#x0A;과장&#x0A;과장&#x0A;부장&#x0A;과장&#x0A;대리&#x0A;대리&#x0A;과장&#x0A;부장&#x0A;과장&#x0A;부장&#x0A;과장&#x0A;과장&#x0A;부장&#x0A;과장&#x0A;부장&#x0A;사원&#x0A;과장&#x0A;부장&#x0A;과장&#x0A;부장&#x0A;사원&#x0A;과장&#x0A;부장&#x0A;과장" bargauge_transparent="0"/>
+			</column>
+			<column>
+				<header title="나이" backcolor="00F0DCDC"/>
+				<data width="165" text_horzalign="2" data_type="0" meta_maxlength="" prefilldata="60&#x0A;42&#x0A;39&#x0A;39&#x0A;26&#x0A;60&#x0A;37&#x0A;39&#x0A;39&#x0A;26&#x0A;60&#x0A;32&#x0A;39&#x0A;39&#x0A;26&#x0A;60&#x0A;42&#x0A;39&#x0A;39&#x0A;26&#x0A;60&#x0A;42&#x0A;39&#x0A;39&#x0A;26&#x0A;60&#x0A;28&#x0A;39&#x0A;39&#x0A;26" bargauge_transparent="0"/>
+			</column>
+			<headermegeinfo info=""/>
+		</grid>
+	</map>
+</map_list>

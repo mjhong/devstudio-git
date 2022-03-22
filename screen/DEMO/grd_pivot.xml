@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<map_list>
+	<map>
+		<screen version="2.0" scriptcode="java" title="grd_pivot" directory="/DEMO/" screenid="grd_pivot" height="540"/>
+		<xlinkdataset id="DS_ORG_DATA" desc="" columns="DATE:&quot;판매일자&quot;::&quot;2010-05-01&#x0A;2010-05-01&#x0A;2010-05-01&#x0A;2010-05-01&#x0A;2010-05-02&#x0A;2010-05-02&#x0A;2010-05-02&#x0A;2010-05-02&#x0A;2010-05-03&#x0A;2010-05-03&#x0A;2010-05-03&#x0A;2010-05-03&#x0A;2010-05-04&#x0A;2010-05-04&#x0A;2010-05-04&#x0A;2010-05-04&#x0A;2010-05-05&#x0A;2010-05-05&#x0A;2010-05-05&#x0A;2010-05-05&#x0A;&quot;:&quot;&quot;;ITEM:&quot;항목&quot;::&quot;Banana&#x0A;Apple&#x0A;Orange&#x0A;Mango&#x0A;Banana&#x0A;Apple&#x0A;Orange&#x0A;Mango&#x0A;Banana&#x0A;Apple&#x0A;Orange&#x0A;Mango&#x0A;Banana&#x0A;Apple&#x0A;Orange&#x0A;Mango&#x0A;Banana&#x0A;Apple&#x0A;Orange&#x0A;Mango&#x0A;&quot;:&quot;&quot;;COUNT:&quot;판매량&quot;::&quot;32&#x0A;12&#x0A;33&#x0A;24&#x0A;42&#x0A;41&#x0A;13&#x0A;22&#x0A;12&#x0A;62&#x0A;63&#x0A;41&#x0A;42&#x0A;12&#x0A;21&#x0A;52&#x0A;43&#x0A;52&#x0A;53&#x0A;17&#x0A;&quot;:&quot;&quot;"/>
+		<tab_order order_option="0" order_info="4,3,0,402,401,404"/>
+		<pushbutton control_id="4" name="btnPivto1" x="474" y="6" right="238" bottom="514" width="100" height="20" text="피봇1" font="맑은 고딕,9,0,0,0,0" version="1.1" on_mouseup="javascript:btnPivto1_on_mouseup()"/>
+		<grid control_id="0" name="grdPivot1" in_index="3" x="312" y="30" right="8" bottom="368" width="492" height="142" font="맑은 고딕,9,0,0,0,0" header_font="맑은 고딕,9,0,0,0,0" header_horzcount="2" header_vertcount="0" header_height="22" cell_height="22" cell_dividerowcount="1" gradient_effect="1" vertscrollbar_style="2" samplerows="5" statistics_row_linenumber="0" version="1.1">
+			<headermegeinfo info=""/>
+		</grid>
+		<grid control_id="3" name="grdOriginalData" in_index="2" x="6" y="30" right="506" bottom="12" width="300" height="498" font="맑은 고딕,9,0,0,0,0" header_font="맑은 고딕,9,0,0,0,0" header_vertcount="0" header_height="22" cell_height="22" cell_dividerowcount="1" gradient_effect="1" linenumber_show="1" vertscrollbar_style="2" link_data="DS_ORG_DATA" samplerows="20" statistics_row_linenumber="0" version="1.1">
+			<column>
+				<header title="판매일자"/>
+				<data text_horzalign="1" editable="1" meta_maxlength="" link_data="DS_ORG_DATA:DATE" bargauge_transparent="0"/>
+			</column>
+			<column>
+				<header title="상품"/>
+				<data text_horzalign="1" editable="1" meta_maxlength="" link_data="DS_ORG_DATA:ITEM" bargauge_transparent="0"/>
+			</column>
+			<column>
+				<header title="판매량"/>
+				<data text_horzalign="1" editable="1" meta_maxlength="" link_data="DS_ORG_DATA:COUNT" bargauge_transparent="0"/>
+			</column>
+			<headermegeinfo info=""/>
+		</grid>
+		<text control_id="397" x="6" y="6" right="742" bottom="516" width="64" height="18" text="원본 데이터" font="맑은 고딕,9,0,0,0,0" text_margin="0,0,0,0" line_gap="0" mousehover_color="00FF0000" mousehover_forecolor="00FF0000"/>
+		<text control_id="398" x="312" y="8" right="364" bottom="514" width="136" height="18" text="동적 피봇 및 데이터 연계" font="맑은 고딕,9,0,0,0,0" text_margin="0,0,0,0" line_gap="0" mousehover_color="00FF0000" mousehover_forecolor="00FF0000"/>
+		<pushbutton control_id="401" name="btnPivto2" x="510" y="354" right="202" bottom="166" width="100" height="20" text="피봇2" font="맑은 고딕,9,0,0,0,0" version="1.1" on_mouseup="eventfunc:btnPivto2_on_mouseup(objInst)"/>
+		<grid control_id="402" name="grdPivot11" in_index="4" x="312" y="204" right="8" bottom="194" width="492" height="142" font="맑은 고딕,9,0,0,0,0" header_font="맑은 고딕,9,0,0,0,0" header_horzcount="2" header_vertcount="0" header_height="22" cell_height="22" cell_dividerowcount="1" gradient_effect="1" linenumber_show="1" vertscrollbar_style="2" pivot_linkdata="xdatasetid=&quot;DS_ORG_DATA&quot; group=&quot;ITEM&quot; pivot=&quot;DATE&quot; data=&quot;COUNT&quot;" samplerows="5" statistics_row_linenumber="0" version="1.1">
+			<column>
+				<header title="DATE"/>
+				<header title="ITEM"/>
+				<data backcolor="00D2D2D2" meta_maxlength="" bargauge_transparent="0"/>
+			</column>
+			<column>
+				<header title=""/>
+				<header title="COUNT"/>
+				<data meta_maxlength="" bargauge_transparent="0"/>
+			</column>
+			<headermegeinfo info=""/>
+		</grid>
+		<text control_id="403" x="312" y="180" right="344" bottom="342" width="156" height="18" text="판매일자 기준 상품별 판매량" font="맑은 고딕,9,0,0,0,0" text_margin="0,0,0,0" line_gap="0" mousehover_color="00FF0000" mousehover_forecolor="00FF0000"/>
+		<grid control_id="404" name="grdPivot21" in_index="5" x="312" y="384" right="8" bottom="12" width="492" height="144" font="맑은 고딕,9,0,0,0,0" header_font="맑은 고딕,9,0,0,0,0" header_horzcount="2" header_vertcount="0" header_height="22" cell_height="22" cell_dividerowcount="1" gradient_effect="1" linenumber_show="1" vertscrollbar_style="2" pivot_linkdata="xdatasetid=&quot;DS_ORG_DATA&quot; group=&quot;DATE&quot; pivot=&quot;ITEM&quot; data=&quot;COUNT&quot;" samplerows="5" statistics_row_linenumber="0" version="1.1">
+			<column>
+				<header title="ITEM"/>
+				<header title="DATE"/>
+				<data backcolor="00D2D2D2" meta_maxlength="" bargauge_transparent="0"/>
+			</column>
+			<column>
+				<header title=""/>
+				<header title="COUNT"/>
+				<data meta_maxlength="" bargauge_transparent="0"/>
+			</column>
+			<headermegeinfo info=""/>
+		</grid>
+		<text control_id="405" x="312" y="354" right="320" bottom="166" width="180" height="20" text="상품기준 기준 판매일자별 판매량" font="맑은 고딕,9,0,0,0,0" text_margin="0,0,0,0" line_gap="0" mousehover_color="00FF0000" mousehover_forecolor="00FF0000"/>
+	</map>
+</map_list>

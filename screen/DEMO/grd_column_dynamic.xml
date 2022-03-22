@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<map_list>
+	<map>
+		<screen version="2.0" scriptcode="java" title="grd_item_merge" directory="/DEMO/" screenid="grd_column_dynamic" width="842" height="592" on_load="eventfunc:screen_on_load()"/>
+		<tab_order order_option="0" order_info="9,0"/>
+		<grid control_id="0" name="grdList" in_index="6" x="6" y="30" right="8" bottom="4" width="828" height="558" font="맑은 고딕,9,0,0,0,0" header_font="맑은 고딕,9,0,0,0,0" header_horzcount="0" header_vertcount="0" header_height="22" cell_height="22" cell_dividerowcount="1" header_clicksort="1" gradient_effect="1" multi_checkrow="1" samplerows="20" fixedcols="5" statistics_row_linenumber="0" version="1.2" on_itemeditcomplete="eventfunc:grdList_on_itemeditcomplete(objInst, nRow, nColumn, strPrevItemText)" on_itemclick="eventfunc:grdList_on_itemclick(objInst, nClickRow, nClickColumn)">
+			<headermegeinfo info=""/>
+		</grid>
+		<pushbutton control_id="9" name="btnDataColumn" x="6" y="6" right="740" bottom="566" width="96" height="20" text="DATA 칼럼 추가" font="맑은 고딕,9,0,0,0,0" version="1.1" on_mouseup="eventfunc:btnDataColumn_on_mouseup(objInst)"/>
+	</map>
+</map_list>

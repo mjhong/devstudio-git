@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<map_list>
+	<map>
+		<screen version="2.0" scriptcode="java" title="그리드 칼럼 이동" directory="/DEMO/" screenid="grd_column_move" width="842" height="592"/>
+		<xlinkdataset id="DS_PRODUCT" desc="" columns="PROD_CODE:&quot;상품코드&quot;:6:&quot;205490&#x0A;101830&#x0A;121894&#x0A;108454&#x0A;206634&#x0A;127125&#x0A;201103&#x0A;201422&#x0A;201426&#x0A;201442&#x0A;206734&#x0A;304098&#x0A;101656&#x0A;201219&#x0A;203418&#x0A;122169&#x0A;304101&#x0A;301476&#x0A;200794&#x0A;&quot;:&quot;&quot;;PROD_NAME:&quot;상품명(규격)&quot;:100:&quot;샐러드믹스(3종혼합 1kg/PAC국산)&#x0A;판두부(찌개용 자연촌 3kg/EA)&#x0A;조미맛김치(한울 5kg/Box 국산)&#x0A;골뱅이캔(자연산 유동 140g*48EA/Box)&#x0A;양파(상 170g이상 10kg/PAC 국산)&#x0A;순대(당면찰 너븐촌 WR 300G*40EA/BOX)&#x0A;당근(세척 특 kg 200~280g/EA 국산)&#x0A;버섯(새송이 상 kg 국산)&#x0A;버섯(애느타리 상 kg 국산)&#x0A;버섯(표고 생 상 kg 국산)&#x0A;버섯(팽이 상 150g/PAC 국산)&#x0A;해물프랩(WR 해마 400g*20EA/Box 국산)&#x0A;쌀떡볶이떡(가래절단 소 백미 1.5kg/EA)&#x0A;양상추(겉잎제거 상 kg 국산)&#x0A;마(산마 일식용 상 kg 국산)&#x0A;쭈삼불고기(WR 지엔푸드 450g*20EA/Box)&#x0A;철판오징어프랩(WR 슬라이스 해마 300g)&#x0A;반건오징어(10마리*10EA/Box 국산)&#x0A;홍고출(특 kg 국산)&#x0A;&quot;:&quot;&quot;;PROD_UNIT:&quot;단위&quot;:10:&quot;PAK&#x0A;EA&#x0A;BOX&#x0A;EA&#x0A;BOX&#x0A;EA&#x0A;KG&#x0A;KG&#x0A;KG&#x0A;KG&#x0A;PAK&#x0A;EA&#x0A;EA&#x0A;KG&#x0A;KG&#x0A;EA&#x0A;EA&#x0A;EA&#x0A;KG&#x0A;&quot;:&quot;&quot;;PROD_COUNT:&quot;수량&quot;:7:&quot;1&#x0A;1&#x0A;1&#x0A;5&#x0A;2&#x0A;5&#x0A;1&#x0A;0&#x0A;0&#x0A;0&#x0A;2&#x0A;2&#x0A;8&#x0A;2&#x0A;1&#x0A;5&#x0A;5&#x0A;1&#x0A;0&#x0A;&quot;:&quot;&quot;;PROD_WEIGHT:&quot;총중량&quot;:7:&quot;1&#x0A;3&#x0A;5&#x0A;1&#x0A;1&#x0A;2&#x0A;1&#x0A;0&#x0A;0&#x0A;0&#x0A;0&#x0A;8&#x0A;1&#x0A;2&#x0A;1&#x0A;2&#x0A;2&#x0A;5&#x0A;0&#x0A;&quot;:&quot;&quot;;PROD_BASE_VALUE:&quot;단가&quot;:10:&quot;5,120&#x0A;4,250&#x0A;17,200&#x0A;2,590&#x0A;2,560&#x0A;2,080&#x0A;2,060&#x0A;6,380&#x0A;4,800&#x0A;12,480&#x0A;510&#x0A;3,410&#x0A;2,570&#x0A;4,780&#x0A;8,910&#x0A;3,800&#x0A;1,840&#x0A;15,800&#x0A;7,350&#x0A;&quot;:&quot;&quot;;PROD_VALUE:&quot;금액&quot;:10:&quot;5,120&#x0A;4,250&#x0A;17,200&#x0A;12,950&#x0A;12,950&#x0A;10,400&#x0A;2,060&#x0A;1,914&#x0A;1,440&#x0A;3,744&#x0A;1,020&#x0A;68,200&#x0A;20,560&#x0A;9,560&#x0A;4,455&#x0A;19,000&#x0A;9,200&#x0A;15,800&#x0A;1,470&#x0A;221,293&#x0A;&quot;:&quot;&quot;;PROD_TAX:&quot;부가세&quot;:10:&quot;0&#x0A;0&#x0A;0&#x0A;1,295&#x0A;0&#x0A;1,040&#x0A;0&#x0A;0&#x0A;0&#x0A;0&#x0A;0&#x0A;0&#x0A;2,056&#x0A;0&#x0A;0&#x0A;1,900&#x0A;0&#x0A;0&#x0A;0&#x0A;6,291&#x0A;&quot;:&quot;&quot;;PROD_TOTAL_VALUE:&quot;총액&quot;:10:&quot;5,120&#x0A;4,250&#x0A;17,200&#x0A;14,245&#x0A;27,580&#x0A;11,440&#x0A;2,060&#x0A;1,914&#x0A;1,440&#x0A;3,744&#x0A;1,020&#x0A;68,200&#x0A;22,616&#x0A;9,560&#x0A;4,455&#x0A;20,900&#x0A;9,200&#x0A;15,800&#x0A;1,470&#x0A;242,214&#x0A;&quot;:&quot;&quot;;PROD_ETC:&quot;비고&quot;:200:&quot;&quot;:&quot;&quot;;PROD_STATUS:&quot;상태&quot;:1:&quot;&quot;:&quot;&quot;;PROD_DELETE_FLAG:&quot;삭제&quot;:1:&quot;&quot;:&quot;&quot;"/>
+		<grid control_id="0" name="grdList" in_index="5" x="6" y="6" right="2" bottom="4" width="834" height="582" font="맑은 고딕,9,0,0,0,0" header_font="맑은 고딕,9,0,0,0,0" header_vertcount="0" header_height="22" cell_height="22" cell_dividerowcount="1" cell_dividecolor="00F5F5F5" cell_linecolor="00CFDAE8" border_color="00CFDAE8" selectrow_backcolor="00F0F0F0" selectrow_bordercolor="006588B5" selectcell_backcolor="00DCDCDC" selectcell_forecolor="00000000" linenumber_show="1" linenumber_hd_forecolor="00585655" linenumber_hd_backcolor="00E8EEF5" linenumber_forecolor="00585655" linenumber_backcolor="00E8EEF5" checkrow_hd_backcolor="00E8EEF5" vertscrollbar_style="2" link_data="DS_PRODUCT" statistics_row="0,00000000,00FFFFFF,00000000,00D2D2D2,00000001,00000001,&quot;합계&quot;,,:" statistics_row_linenumber="0" column_moveable="1" version="1.1">
+			<column>
+				<header title="삭제" forecolor="00585655" backcolor="00E8EEF5"/>
+				<data name="PROD_DELETE_FLAG" description="삭제" width="30" text_horzalign="1" input_type="1" max_length="1" meta_maxlength="" link_data="DS_PRODUCT:PROD_DELETE_FLAG" bargauge_transparent="0"/>
+			</column>
+			<column>
+				<header title="상태" forecolor="00585655" backcolor="00E8EEF5"/>
+				<data name="PROD_STATUS1" description="상태" width="40" image_horzalign="1" max_length="1" meta_maxlength="" resizable="0" link_data="DS_PRODUCT:PROD_STATUS" bargauge_transparent="0"/>
+			</column>
+			<column>
+				<header title="상태" forecolor="00585655" backcolor="00E8EEF5"/>
+				<data name="PROD_STATUS2" width="40" text_horzalign="1" image_horzalign="1" meta_maxlength="" bargauge_transparent="0"/>
+			</column>
+			<column>
+				<header title="상품코드" forecolor="00585655" backcolor="00E8EEF5"/>
+				<data name="PROD_CODE" description="상품코드" width="54" text_horzalign="1" max_length="6" meta_maxlength="" link_data="DS_PRODUCT:PROD_CODE" bargauge_transparent="0"/>
+			</column>
+			<column>
+				<header title="상품명(규격)" forecolor="00585655" backcolor="00E8EEF5"/>
+				<data name="PROD_NAME" description="상품명(규격)" width="236" max_length="100" meta_maxlength="" link_data="DS_PRODUCT:PROD_NAME" bargauge_transparent="0"/>
+			</column>
+			<column>
+				<header title="단위" forecolor="00585655" backcolor="00E8EEF5"/>
+				<data name="PROD_UNIT" description="단위" width="66" max_length="10" meta_maxlength="" link_data="DS_PRODUCT:PROD_UNIT" bargauge_transparent="0"/>
+			</column>
+			<column>
+				<header title="수량" forecolor="00585655" backcolor="00E8EEF5"/>
+				<data name="PROD_COUNT" description="수량" width="48" text_horzalign="2" data_type="0" max_length="7" meta_maxlength="" pattern="ZZZ,ZZ9.9" statistics_show="0" link_data="DS_PRODUCT:PROD_COUNT" bargauge_transparent="0"/>
+			</column>
+			<column>
+				<header title="총중량" forecolor="00585655" backcolor="00E8EEF5"/>
+				<data name="PROD_WEIGHT" description="총중량" width="48" text_horzalign="2" data_type="0" max_length="7" meta_maxlength="" pattern="ZZZ,ZZ9.9" statistics_show="0" link_data="DS_PRODUCT:PROD_WEIGHT" bargauge_transparent="0"/>
+			</column>
+			<column>
+				<header title="단가" forecolor="00585655" backcolor="00E8EEF5"/>
+				<data name="PROD_BASE_VALUE" description="단가" width="66" text_horzalign="2" data_type="0" max_length="10" meta_maxlength="" pattern="Z,ZZZ,ZZZ,ZZ9" statistics_show="0" link_data="DS_PRODUCT:PROD_BASE_VALUE" bargauge_transparent="0"/>
+			</column>
+			<column>
+				<header title="금액" forecolor="00585655" backcolor="00E8EEF5"/>
+				<data name="PROD_VALUE" description="금액" width="66" text_horzalign="2" data_type="0" max_length="10" meta_maxlength="" pattern="Z,ZZZ,ZZZ,ZZ9" link_data="DS_PRODUCT:PROD_VALUE" bargauge_transparent="0"/>
+			</column>
+			<column>
+				<header title="부가세" forecolor="00585655" backcolor="00E8EEF5"/>
+				<data name="PROD_TAX" description="부가세" width="66" text_horzalign="2" data_type="0" max_length="10" meta_maxlength="" pattern="Z,ZZZ,ZZZ,ZZ9" link_data="DS_PRODUCT:PROD_TAX" bargauge_transparent="0"/>
+			</column>
+			<column>
+				<header title="총액" forecolor="00585655" backcolor="00E8EEF5"/>
+				<data name="PROD_TOTAL_VALUE" description="총액" width="66" text_horzalign="2" data_type="0" max_length="10" meta_maxlength="" pattern="Z,ZZZ,ZZZ,ZZ9" link_data="DS_PRODUCT:PROD_TOTAL_VALUE" bargauge_transparent="0"/>
+			</column>
+			<column>
+				<header title="비고" forecolor="00585655" backcolor="00E8EEF5"/>
+				<data name="PROD_ETC" description="비고" width="74" max_length="200" meta_maxlength="" link_data="DS_PRODUCT:PROD_ETC" bargauge_transparent="0"/>
+			</column>
+			<headermegeinfo info=""/>
+		</grid>
+	</map>
+</map_list>

@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<map_list>
+	<map>
+		<screen version="2.0" scriptcode="java" title="대량데이터처리" directory="/DEMO/" screenid="grd_massdata" width="842" height="592" on_submitcomplete="eventfunc:screen_on_submitcomplete(mapid, result, recv_userheader, recv_code, recv_msg)"/>
+		<xlinkdataset id="DS_DATA" desc="" columns="Column_01:&quot;&quot;::&quot;&quot;:&quot;&quot;;Column_02:&quot;&quot;::&quot;&quot;:&quot;&quot;;Column_03:&quot;&quot;::&quot;&quot;:&quot;&quot;;Column_04:&quot;&quot;::&quot;&quot;:&quot;&quot;;Column_05:&quot;&quot;::&quot;&quot;:&quot;&quot;;Column_06:&quot;&quot;::&quot;&quot;:&quot;&quot;;Column_07:&quot;&quot;::&quot;&quot;:&quot;&quot;;Column_08:&quot;&quot;::&quot;&quot;:&quot;&quot;;Column_09:&quot;&quot;::&quot;&quot;:&quot;&quot;;Column_10:&quot;&quot;::&quot;&quot;:&quot;&quot;"/>
+		<xlinkdataset id="DS_COND" desc="" columns="max_row_count:&quot;&quot;::&quot;50&#x0A;&quot;:&quot;&quot;"/>
+		<xlinktranmap id="TR_SELECT" url="MassDataType.jsp" comment="">
+			<xtds id="DS_DATA" in_op="" out_op="DELETE" info="Column_01::1;Column_02::1;Column_03::1;Column_04::1;Column_05::1;Column_06::1;Column_07::1;Column_08::1;Column_09::1;Column_10::1"/>
+			<xtds id="DS_COND" in_op="ALL" out_op="" info="max_row_count:1:"/>
+		</xlinktranmap>
+		<tab_order order_option="0" order_info="5,7,73,63,0"/>
+		<grid control_id="0" name="grdList" in_index="2" x="6" y="30" right="2" bottom="4" width="834" height="558" font="맑은 고딕,9,0,0,0,0" header_font="맑은 고딕,9,0,0,0,0" header_horzcount="2" header_vertcount="0" header_height="22" cell_height="22" cell_dividerowcount="1" gradient_effect="1" linenumber_show="1" link_data="DS_DATA" statistics_row_linenumber="0" version="1.2" on_sortcomplete="eventfunc:grdList_on_sortcomplete(objInst)">
+			<column>
+				<header title="문자열 그룹"/>
+				<header title="한글#1"/>
+				<data meta_maxlength="" link_data="DS_DATA:Column_01" bargauge_transparent="0"/>
+			</column>
+			<column>
+				<header title="문자열 그룹"/>
+				<header title="한글#2"/>
+				<data meta_maxlength="" link_data="DS_DATA:Column_02" bargauge_transparent="0"/>
+			</column>
+			<column>
+				<header title="문자열 그룹"/>
+				<header title="영문#1"/>
+				<data meta_maxlength="" link_data="DS_DATA:Column_03" bargauge_transparent="0"/>
+			</column>
+			<column>
+				<header title="문자열 그룹"/>
+				<header title="영문#2"/>
+				<data meta_maxlength="" link_data="DS_DATA:Column_04" bargauge_transparent="0"/>
+			</column>
+			<column>
+				<header title="문자열 그룹"/>
+				<header title="한자#1"/>
+				<data meta_maxlength="" link_data="DS_DATA:Column_05" bargauge_transparent="0"/>
+			</column>
+			<column>
+				<header title="숫자형 그룹"/>
+				<header title="숫자#1(정수형)"/>
+				<data width="133" meta_maxlength="" link_data="DS_DATA:Column_06" bargauge_transparent="0"/>
+			</column>
+			<column>
+				<header title="숫자형 그룹"/>
+				<header title="숫자#2(실수형)"/>
+				<data width="154" meta_maxlength="" link_data="DS_DATA:Column_07" bargauge_transparent="0"/>
+			</column>
+			<column>
+				<header title="혼한협(문자+숫자) 그룹"/>
+				<header title="혼합#1"/>
+				<data meta_maxlength="" link_data="DS_DATA:Column_08" bargauge_transparent="0"/>
+			</column>
+			<column>
+				<header title="혼한협(문자+숫자) 그룹"/>
+				<header title="혼합#2"/>
+				<data meta_maxlength="" link_data="DS_DATA:Column_09" bargauge_transparent="0"/>
+			</column>
+			<column>
+				<header title="혼한협(문자+숫자) 그룹"/>
+				<header title="혼합#3"/>
+				<data meta_maxlength="" link_data="DS_DATA:Column_10" bargauge_transparent="0"/>
+			</column>
+			<headermegeinfo info="0,0,0,4:0,5,0,6:0,7,0,9:"/>
+		</grid>
+		<text control_id="4" x="6" y="6" right="772" bottom="566" width="64" height="20" text="데이터 건수" font="맑은 고딕,9,0,0,0,0" text_margin="0,0,0,0" line_gap="0" mousehover_color="00FF0000" mousehover_forecolor="00FF0000" version="1.1"/>
+		<numericex_field control_id="5" name="fldCount" in_index="0" x="84" y="6" right="649" bottom="566" width="109" height="20" font="맑은 고딕,9,0,0,0,0" transparent="0" text_margin="1,1,1,1" mousehover_forecolor="00FF0000" link_data="DS_COND:max_row_count" default_value="1" meta_maxlength=""/>
+		<text control_id="6" x="198" y="6" right="612" bottom="566" width="32" height="20" text="(천건)" font="맑은 고딕,9,0,0,0,0" text_margin="0,0,0,0" line_gap="0" mousehover_color="00FF0000" mousehover_forecolor="00FF0000" version="1.1"/>
+		<pushbutton control_id="7" name="btnSelect" x="240" y="6" right="566" bottom="566" width="36" height="20" text="조회" font="맑은 고딕,9,0,0,0,0" version="1.1" on_mouseup="eventfunc:btnSelect_on_mouseup(objInst)"/>
+		<text control_id="11" x="624" y="6" right="170" bottom="566" width="48" height="20" text="경과시간" font="맑은 고딕,9,0,0,0,0" text_margin="0,0,0,0" line_gap="0" mousehover_color="00FF0000" mousehover_forecolor="00FF0000" version="1.1"/>
+		<text control_id="13" x="816" y="6" right="6" bottom="566" width="20" height="20" text="(초)" font="맑은 고딕,9,0,0,0,0" text_margin="0,0,0,0" line_gap="0" mousehover_color="00FF0000" mousehover_forecolor="00FF0000" version="1.1"/>
+		<normal_field control_id="63" name="fldElapseTime" in_index="1" x="688" y="6" right="30" bottom="568" width="124" height="18" font="맑은 고딕,9,0,0,0,0" transparent="0" horz_align="1" text_margin="1,1,1,1" mousehover_forecolor="00FF0000" meta_maxlength=""/>
+		<pushbutton control_id="73" name="btnClear" x="282" y="6" right="524" bottom="566" width="36" height="20" text="Clear" font="맑은 고딕,9,0,0,0,0" version="1.1" on_mouseup="eventfunc:btnClear_on_mouseup(objInst)"/>
+	</map>
+</map_list>

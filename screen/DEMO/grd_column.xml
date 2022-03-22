@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<map_list>
+	<map>
+		<screen version="2.0" scriptcode="java" title="grd_column" directory="/DEMO/" screenid="grd_column" width="842" height="592" on_load="eventfunc:screen_on_load()"/>
+		<tab_order order_option="0" order_info="61"/>
+		<grid control_id="61" name="grdList" in_index="5" x="6" y="6" right="8" bottom="4" width="828" height="582" font="맑은 고딕,9,0,0,0,0" header_font="맑은 고딕,9,0,0,0,0" header_vertcount="0" header_height="22" cell_height="22" cell_dividerowcount="1" cell_dividecolor="00D2D2D2" gradient_effect="1" linenumber_show="1" use_checkrow="1" multi_checkrow="1" vertscrollbar_style="2" fixedcols="3" statistics_row_linenumber="0" on_itemdblclick="javascript:grdList_on_itemdblclick(nDblClickRow, nDblClickColumn)">
+			<column>
+				<header title="고객번호(고정)"/>
+				<data width="90" text_horzalign="1" editable="1" max_length="11" meta_maxlength="" pattern="999-99999999" prefilldata="01211124311&#x0A;12412102134&#x0A;50922346434&#x0A;54672631220" bargauge_transparent="0"/>
+			</column>
+			<column>
+				<header title="" vert_align="2"/>
+				<data width="19" image="/DEMO/icon_magnify.gif" meta_maxlength="" excel_rw="0" bargauge_transparent="0"/>
+			</column>
+			<column>
+				<header title="고객명(고정)"/>
+				<data width="81" imemode="1" data_type="2" max_length="30" meta_maxlength="" prefilldata="고현정&#x0A;장동건&#x0A;이승기&#x0A;김태희" bargauge_transparent="0"/>
+			</column>
+			<column>
+				<header title="날짜" tooltip="입사일자를&#x0D;&#x0A;지정합니다."/>
+				<data width="119" text_horzalign="1" editable="1" data_type="0" input_type="3" meta_maxlength="" pattern="9999-99-99" prefilldata="20101212&#x0A;20101213&#x0A;20101214&#x0A;20120513" bargauge_transparent="0"/>
+			</column>
+			<column>
+				<header title="구분(콤보)"/>
+				<data width="185" editable="1" input_type="2" meta_maxlength="" prefilldata="01&#x0A;02&#x0A;03&#x0A;01" picklist="/DEMO/000120_1" picklist_selstyle="1" bargauge_transparent="0"/>
+			</column>
+			<column>
+				<header title="VIP 고객"/>
+				<data text_horzalign="1" editable="1" input_type="1" meta_maxlength="" picklist_selstyle="1" bargauge_transparent="0"/>
+			</column>
+			<column>
+				<header title="금액"/>
+				<data width="116" text_horzalign="2" editable="1" data_type="0" max_length="17" meta_maxlength="" pattern="ZZ,ZZZ,ZZZ,ZZZ,ZZZ,ZZ9" prefilldata="1210000&#x0A;2320000&#x0A;7345000&#x0A;4804587" bargauge_transparent="0"/>
+			</column>
+			<column>
+				<header title="이율(합계제외)"/>
+				<data width="94" text_horzalign="2" editable="1" data_type="0" max_length="5" meta_maxlength="" pattern="ZZ9.99" prefilldata="621&#x0A;812&#x0A;732&#x0A;12.41" statistics_show="0" bargauge_transparent="0"/>
+			</column>
+			<column>
+				<header title="비    고"/>
+				<data width="309" editable="1" max_length="50" meta_maxlength="" prefilldata="주요 고객&#x0A;관리 대상 고객&#x0A;주요 고객&#x0A;주요 고객" bargauge_transparent="0"/>
+			</column>
+			<headermegeinfo info=""/>
+		</grid>
+		<text control_id="64" x="235" y="42" right="0" bottom="0" width="0" height="0" text="" font="굴림체,9,0,0,0,0" text_margin="0,0,0,0" line_gap="0" mousehover_color="00FF0000" mousehover_forecolor="00FF0000"/>
+	</map>
+</map_list>

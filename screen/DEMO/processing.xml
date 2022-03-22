@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<map_list>
+	<map>
+		<screen version="2.0" scriptcode="none" title="진행중" directory="/DEMO/" screenid="processing" width="333" height="100"/>
+		<image control_id="1" x="0" y="0" width="333" height="100" border="0" image="/DEMO/processing_back.gif" imagesize="2"/>
+		<image control_id="0" x="30" y="36" width="50" height="48" border="0" image="/DEMO/aniC.gif" imagesize="2"/>
+	</map>
+</map_list>

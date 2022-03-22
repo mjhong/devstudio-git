@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<map_list>
+	<map>
+		<screen version="2.0" scriptcode="java" title="grd_mid_stat" directory="/DEMO/" screenid="grd_mid_stat" width="842" height="592"/>
+		<tranmap fcode="TR1034" etc="" type="check" defaultmap="1" mapinfo="374:X:0:0:X:0:0:X:0:0:X:0:0:X:0:0:X:0:0/375:S:::/"/>
+		<tab_order order_option="0" order_info="375,374"/>
+		<grid control_id="374" name="grid1" in_index="1" x="6" y="8" right="62" bottom="4" width="774" height="580" font="맑은 고딕,9,0,0,0,0" header_font="맑은 고딕,9,0,0,0,0" header_vertcount="0" header_height="22" cell_height="22" cell_dividerowcount="0" cell_linecolor="00F1EBC1" selectrow_style="3" selectrow_bordercolor="00C3A58A" selectcell_backcolor="00FFDFDA" selectcell_forecolor="002D2D2D" gradient_effect="1" vertscrollbar_style="0" samplerows="22" statistics_row_linenumber="0" version="1.1">
+			<column>
+				<header title="지역" forecolor="00383838" backcolor="00B6A528"/>
+				<data name="Column0" width="124" text_horzalign="1" meta_maxlength="" cellmerge="1" prefilldata="서울/경기&#x0A;서울/경기&#x0A;서울/경기&#x0A;서울/경기&#x0A;서울/경기&#x0A;서울/경기&#x0A;서울/경기&#x0A;서울/경기&#x0A;부산/경남&#x0A;부산/경남&#x0A;부산/경남&#x0A;부산/경남&#x0A;부산/경남" bargauge_transparent="0"/>
+			</column>
+			<column>
+				<header title="시" forecolor="00383838" backcolor="00B6A528"/>
+				<data name="Column1" width="138" text_horzalign="1" meta_maxlength="" cellmerge="1,&quot;Column0&quot;" prefilldata="서울특별시&#x0A;서울특별시&#x0A;서울특별시&#x0A;서울특별시&#x0A;부천시&#x0A;부천시&#x0A;성남시&#x0A;성남시&#x0A;부산시&#x0A;부산시&#x0A;부산시&#x0A;여수시&#x0A;여수시" base_midstatistics="1" bargauge_transparent="0"/>
+			</column>
+			<column>
+				<header title="구분"/>
+				<data width="112" text_horzalign="1" meta_maxlength="" prefilldata="10대&#x0A;20대&#x0A;30대&#x0A;40대&#x0A;20대&#x0A;40대&#x0A;10대&#x0A;20대&#x0A;10대&#x0A;20대&#x0A;30대&#x0A;30대&#x0A;40대" bargauge_transparent="0"/>
+			</column>
+			<column>
+				<header title="인구수" forecolor="00383838" backcolor="00B6A528"/>
+				<data width="142" text_horzalign="2" data_type="0" meta_maxlength="" pattern="ZZ,ZZZ,ZZZ,ZZ9" prefilldata="120000&#x0A;142000&#x0A;121000&#x0A;294500&#x0A;394460&#x0A;239420&#x0A;192100&#x0A;136220&#x0A;142000&#x0A;121000&#x0A;342000&#x0A;361100&#x0A;536000" bargauge_transparent="0"/>
+			</column>
+			<column>
+				<header title="취업자수" forecolor="00383838" backcolor="00B6A528"/>
+				<data width="117" text_horzalign="2" data_type="0" meta_maxlength="" pattern="ZZ,ZZZ,ZZZ,ZZ9" prefilldata="43000&#x0A;29350&#x0A;3940&#x0A;23540&#x0A;35960&#x0A;2340&#x0A;2562&#x0A;36045&#x0A;25901&#x0A;29523&#x0A;12313&#x0A;73400&#x0A;1340" midstatistics_type="1" bargauge_transparent="0"/>
+			</column>
+			<column>
+				<header title="자영업자수" forecolor="00383838" backcolor="00B6A528"/>
+				<data width="138" text_horzalign="2" data_type="0" meta_maxlength="" pattern="ZZ,ZZZ,ZZZ,ZZ9" prefilldata="4305&#x0A;1400&#x0A;29500&#x0A;1465&#x0A;125424&#x0A;27834&#x0A;663&#x0A;34524&#x0A;2002&#x0A;2356&#x0A;3400&#x0A;2399&#x0A;7490" bargauge_transparent="0"/>
+			</column>
+			<headermegeinfo info=""/>
+		</grid>
+		<pushbutton control_id="375" name="btnSubSum" x="786" y="6" right="8" bottom="566" width="48" height="20" text="계산" font="맑은 고딕,9,0,0,0,0" version="1.1" on_mouseup="eventfunc:btnSubSum_on_mouseup(objInst)"/>
+	</map>
+</map_list>

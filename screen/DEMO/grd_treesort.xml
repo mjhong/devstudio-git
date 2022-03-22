@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<map_list>
+	<map>
+		<screen version="2.0" scriptcode="java" title="treegridsort" directory="/DEMO/" screenid="grd_treesort" width="842" height="592"/>
+		<xlinkdataset id="DS_TREE" desc="" columns="DEPTH:&quot;DEPTH&quot;::&quot;0&#x0A;1&#x0A;1&#x0A;2&#x0A;2&#x0A;3&#x0A;3&#x0A;3&#x0A;0&#x0A;1&#x0A;2&#x0A;2&#x0A;&quot;:&quot;&quot;;TEXT:&quot;TEXT&quot;::&quot;ROOT_0&#x0A;SUB_0&#x0A;SUB_1&#x0A;SUB_1_0&#x0A;SUB_1_1&#x0A;SUB_2_1&#x0A;SUB_2_2&#x0A;SUB_2_3&#x0A;ROOT_1&#x0A;SUB_1_0&#x0A;ITEM_2_1&#x0A;ITEM_2_2&#x0A;&quot;:&quot;&quot;;DATA:&quot;DATA&quot;::&quot;0&#x0A;1&#x0A;1&#x0A;2&#x0A;2&#x0A;2&#x0A;2&#x0A;2&#x0A;0&#x0A;1&#x0A;2&#x0A;2&#x0A;&quot;:&quot;&quot;;IMAGE_INDEX:&quot;IMAGE_INDEX&quot;::&quot;0&#x0A;1&#x0A;1&#x0A;3&#x0A;3&#x0A;3&#x0A;3&#x0A;3&#x0A;0&#x0A;1&#x0A;3&#x0A;3&#x0A;&quot;:&quot;&quot;;SEL_IMAGE_INDEX:&quot;SEL_IMAGE_INDEX&quot;::&quot;0&#x0A;2&#x0A;2&#x0A;3&#x0A;3&#x0A;3&#x0A;3&#x0A;3&#x0A;0&#x0A;2&#x0A;3&#x0A;3&#x0A;&quot;:&quot;&quot;;ITEM_KEY:&quot;ITEM_KEY&quot;::&quot;0&#x0A;1&#x0A;2&#x0A;3&#x0A;4&#x0A;4&#x0A;4&#x0A;4&#x0A;5&#x0A;6&#x0A;7&#x0A;8&#x0A;&quot;:&quot;&quot;;COL_A:&quot;COL_A&quot;::&quot;A1&#x0A;A2&#x0A;A3&#x0A;A4&#x0A;A&#x0A;A&#x0A;A&#x0A;B&#x0A;A&#x0A;A&#x0A;A&#x0A;B&#x0A;&quot;:&quot;&quot;;COL_B:&quot;COL_B&quot;::&quot;B&#x0A;B&#x0A;B&#x0A;B&#x0A;B&#x0A;B&#x0A;A&#x0A;A&#x0A;B&#x0A;B&#x0A;B&#x0A;A&#x0A;&quot;:&quot;&quot;;COL_C:&quot;COL_C&quot;::&quot;C&#x0A;C&#x0A;C&#x0A;C&#x0A;C&#x0A;C&#x0A;C&#x0A;B&#x0A;C&#x0A;C&#x0A;C&#x0A;C&#x0A;&quot;:&quot;&quot;"/>
+		<treegrid control_id="0" name="grdList" in_index="4" x="6" y="6" right="8" bottom="4" width="828" height="582" font="맑은 고딕,9,0,0,0,0" header_font="맑은 고딕,9,0,0,0,0" header_vertcount="0" header_height="22" cell_height="22" cell_dividerowcount="1" header_clicksort="1" gradient_effect="1" linenumber_show="1" tree_linkdata="DS_TREE:DEPTH:IMAGE_INDEX:SEL_IMAGE_INDEX:ITEM_KEY" fixedcols="1" statistics_row_linenumber="0" version="1.1">
+			<column>
+				<header title="TREE"/>
+				<data width="182" backcolor="00FFFFFF" link_data="DS_TREE:TEXT" meta_maxlength=""/>
+			</column>
+			<column>
+				<header title="A"/>
+				<data width="171" data_type="2" meta_maxlength="" link_data="DS_TREE:COL_A" bargauge_transparent="0"/>
+			</column>
+			<column>
+				<header title="B"/>
+				<data width="216" data_type="2" meta_maxlength="" link_data="DS_TREE:COL_B" bargauge_transparent="0"/>
+			</column>
+			<column>
+				<header title="C"/>
+				<data width="195" meta_maxlength="" link_data="DS_TREE:COL_C" bargauge_transparent="0"/>
+			</column>
+			<headermegeinfo info=""/>
+		</treegrid>
+	</map>
+</map_list>

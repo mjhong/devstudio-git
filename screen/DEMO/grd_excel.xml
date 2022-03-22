@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<map_list>
+	<map>
+		<screen version="2.0" scriptcode="java" title="엑셀 연동" directory="/DEMO/" screenid="grd_excel" width="842" height="592" on_load="javascript:screen_on_load()"/>
+		<attrimap id="BASE" defaultmap="1" mapinfo="20:O:/21:O:/14:O:;O:O:O:O:O:O:O:O:O:O:O:O:O:O:O:/16:E:/17:S:/18:S:/19:S:/22:S:/29:S:/"/>
+		<tab_order order_option="0" order_info="20,21,16,29,18,17,14"/>
+		<grid control_id="14" name="gridDelayCustomer" in_index="2" x="6" y="32" right="8" bottom="4" width="828" height="556" font="맑은 고딕,9,0,0,0,0" header_font="맑은 고딕,9,0,0,0,0" header_vertcount="0" header_height="22" cell_height="22" cell_dividerowcount="1" cell_dividecolor="00E6F9F2" gradient_effect="1" linenumber_show="1" dynamic_fixedrows="1" fixedcols="2" dynamic_fixedcols="1" statistics_row_linenumber="0" use_selectblock="1" accept_dropfiles="1" on_itemselchange="eventfunc:gridDelayCustomer_on_itemselchange(objInst, nPrevSelectRow, nPrevSelectColumn, nCurSelectRow, nCurSelectColumn)" on_dropfiles="eventfunc:gridDelayCustomer_on_dropfiles(objInst, arrayDropFiles, nDropFileCount)">
+			<column>
+				<header title="고객번호" backcolor="00F0DCDC"/>
+				<data width="130" text_horzalign="1" meta_maxlength="" bargauge_transparent="0"/>
+			</column>
+			<column>
+				<header title="고객명" backcolor="00F0DCDC"/>
+				<data width="166" editable="1" meta_maxlength="" bargauge_transparent="0"/>
+			</column>
+			<column>
+				<header title="독촉일" backcolor="00F0DCDC"/>
+				<data width="83" text_horzalign="1" editable="1" meta_maxlength="" pattern="9999-99-99" bargauge_transparent="0"/>
+			</column>
+			<column>
+				<header title="최종통화" backcolor="00F0DCDC"/>
+				<data width="88" editable="1" meta_maxlength="" bargauge_transparent="0"/>
+			</column>
+			<column>
+				<header title="입금약속일" backcolor="00F0DCDC"/>
+				<data width="82" text_horzalign="1" editable="1" meta_maxlength="" pattern="9999-99-99" bargauge_transparent="0"/>
+			</column>
+			<column>
+				<header title="연체원금합계" backcolor="00F0DCDC"/>
+				<data width="90" text_horzalign="2" editable="1" data_type="0" meta_maxlength="" pattern="ZZZ,ZZZ,ZZZ,ZZZ,ZZZ,ZZZ,ZZ9" bargauge_transparent="0"/>
+			</column>
+			<column>
+				<header title="연체이자합계" backcolor="00F0DCDC"/>
+				<data width="92" text_horzalign="2" editable="1" data_type="0" meta_maxlength="" pattern="ZZZ,ZZZ,ZZZ,ZZZ,ZZZ,ZZZ,ZZ9" bargauge_transparent="0"/>
+			</column>
+			<column>
+				<header title="카드수수료합계" backcolor="00F0DCDC"/>
+				<data width="103" text_horzalign="2" editable="1" data_type="0" meta_maxlength="" pattern="ZZZ,ZZZ,ZZZ,ZZZ,ZZZ,ZZZ,ZZ9" bargauge_transparent="0"/>
+			</column>
+			<column>
+				<header title="할부잔액합계" backcolor="00F0DCDC"/>
+				<data width="136" text_horzalign="2" editable="1" data_type="0" meta_maxlength="" pattern="ZZZ,ZZZ,ZZZ,ZZZ,ZZZ,ZZZ,ZZ9" bargauge_transparent="0"/>
+			</column>
+			<column>
+				<header title="연체월수" backcolor="00F0DCDC"/>
+				<data width="65" text_horzalign="2" editable="1" data_type="0" meta_maxlength="" bargauge_transparent="0"/>
+			</column>
+			<column>
+				<header title="연체일수" backcolor="00F0DCDC"/>
+				<data width="64" text_horzalign="2" editable="1" data_type="0" meta_maxlength="" bargauge_transparent="0"/>
+			</column>
+			<column>
+				<header title="신용불량건수" backcolor="00F0DCDC"/>
+				<data width="87" text_horzalign="2" editable="1" data_type="0" meta_maxlength="" bargauge_transparent="0"/>
+			</column>
+			<column>
+				<header title="신용불량금액" backcolor="00F0DCDC"/>
+				<data width="123" text_horzalign="2" editable="1" data_type="0" meta_maxlength="" pattern="ZZZ,ZZZ,ZZZ,ZZZ,ZZZ,ZZZ,ZZ9" bargauge_transparent="0"/>
+			</column>
+			<column>
+				<header title="최종이수일" backcolor="00F0DCDC"/>
+				<data width="81" text_horzalign="1" editable="1" meta_maxlength="" pattern="9999-99-99" bargauge_transparent="0"/>
+			</column>
+			<column>
+				<header title="최종연체일" backcolor="00F0DCDC"/>
+				<data width="78" text_horzalign="1" editable="1" meta_maxlength="" pattern="9999-99-99" bargauge_transparent="0"/>
+			</column>
+			<headermegeinfo info=""/>
+		</grid>
+		<pushbutton control_id="16" name="btnSummary" x="480" y="6" right="278" bottom="566" width="84" height="20" text="요약" font="맑은 고딕,9,0,0,0,0" back_color="00F1FCF9" drawfocusrect="0" hidden="1" tooltip="각 항목에 대한 상세 정보 표시" on_mouseup="eventfunc:btnSummary_on_mouseup(objInst)"/>
+		<pushbutton control_id="17" name="btnExcel" x="750" y="6" right="8" bottom="566" width="84" height="20" text="CSV 로드" font="맑은 고딕,9,0,0,0,0" back_color="00F1FCF9" drawfocusrect="0" tooltip="엑셀로부터 데이터 로드" on_mouseup="javascript:btnExcel_on_mouseup()"/>
+		<pushbutton control_id="18" name="btnExcelReport" x="660" y="6" right="98" bottom="566" width="84" height="20" text="엑셀 저장" font="맑은 고딕,9,0,0,0,0" back_color="00F1FCF9" drawfocusrect="0" tooltip="리포트 형식으로 EXCEL 출력" on_mouseup="javascript:btnExcelReport_on_mouseup()"/>
+		<text control_id="19" autosize="0" x="6" y="6" right="782" bottom="566" width="54" height="20" text="조회 기간" font="맑은 고딕,9,0,0,0,0" text_margin="0,0,0,0" line_gap="0" mousehover_color="00FF0000" mousehover_forecolor="00FF0000" version="1.1"/>
+		<normal_field control_id="20" name="fldStartDate" in_index="0" autosize="0" x="72" y="5" right="698" bottom="567" width="72" height="20" font="맑은 고딕,9,0,0,0,0" transparent="0" text_margin="1,1,1,1" mousehover_forecolor="00FF0000" max_length="8" meta_maxlength="" pattern="9999-99-99"/>
+		<normal_field control_id="21" name="fldEndDate" in_index="1" autosize="0" x="176" y="5" right="594" bottom="567" width="72" height="20" font="맑은 고딕,9,0,0,0,0" transparent="0" text_margin="1,1,1,1" mousehover_forecolor="00FF0000" max_length="8" meta_maxlength="" pattern="9999-99-99"/>
+		<text control_id="22" autosize="0" x="162" y="5" right="674" bottom="569" width="6" height="18" text="~" font="맑은 고딕,9,0,0,0,0" text_margin="0,0,0,0" line_gap="0" mousehover_color="00FF0000" mousehover_forecolor="00FF0000" version="1.1"/>
+		<pushbutton control_id="29" name="btnMasking" x="570" y="6" right="188" bottom="566" width="84" height="20" text="마스킹" font="맑은 고딕,9,0,0,0,0" back_color="00F1FCF9" drawfocusrect="0" hidden="1" tooltip="고객 번호 마스킹" on_mouseup="eventfunc:btnMasking_on_mouseup(objInst)"/>
+	</map>
+</map_list>

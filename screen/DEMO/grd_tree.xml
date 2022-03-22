@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<map_list>
+	<map>
+		<screen version="2.0" scriptcode="java" title="트리 그리드 및 셀간 병합" directory="/DEMO/" screenid="grd_tree" width="842" height="592" on_load="eventfunc:screen_on_load()"/>
+		<tab_order order_option="0" order_info="386,404,370"/>
+		<text control_id="397" x="6" y="6" right="771" bottom="566" width="65" height="20" text="직원정보" font="맑은 고딕,9,0,0,0,0" text_margin="0,0,0,0" line_gap="0" image="/DEMO/bltpopuptit.gif" mousehover_color="00FF0000" mousehover_forecolor="00FF0000"/>
+		<pushbutton control_id="386" name="btnSearch" x="762" y="6" right="8" bottom="566" width="72" height="20" text="검 색" font="맑은 고딕,9,0,0,0,0" fore_color="00FFFFFF" gradient_effect="1" gradient_startcolor="00DABABC" gradient_endcolor="00A5696E" on_mouseup="eventfunc:btnSearch_on_mouseup(objInst)"/>
+		<treegrid control_id="404" name="grdTree" in_index="0" x="6" y="30" right="8" bottom="4" width="828" height="558" font="맑은 고딕,9,0,0,0,0" header_font="맑은 고딕,9,0,0,0,0" header_vertcount="0" header_height="22" cell_height="22" cell_dividerowcount="0" gradient_effect="1" linenumber_show="1" linenumber_backcolor="00F0DCDC" vertscrollbar_style="2" fixedcols="1" statistics_row_linenumber="0">
+			<column>
+				<header title="직원정보" backcolor="00F0DCDC"/>
+				<data width="247" backcolor="00FFFFFF" meta_maxlength=""/>
+			</column>
+			<column>
+				<header title="직원명" backcolor="00F0DCDC"/>
+				<data width="157" meta_maxlength="" bargauge_transparent="0"/>
+			</column>
+			<column>
+				<header title="직급" backcolor="00F0DCDC"/>
+				<data width="107" text_horzalign="1" meta_maxlength="" bargauge_transparent="0"/>
+			</column>
+			<column>
+				<header title="단말번호" backcolor="00F0DCDC"/>
+				<data width="108" text_horzalign="1" meta_maxlength="" bargauge_transparent="0"/>
+			</column>
+			<column>
+				<header title="IP" backcolor="00F0DCDC"/>
+				<data width="150" meta_maxlength="" bargauge_transparent="0"/>
+			</column>
+			<headermegeinfo info=""/>
+		</treegrid>
+		<grid control_id="370" name="grdPredata" in_index="1" out_index="0" x="18" y="174" right="44" bottom="22" width="780" height="396" font="굴림체,9,0,0,0,0" header_font="굴림체,9,0,0,0,0" header_vertcount="0" linenumber_show="1" linenumber_hd_backcolor="00F0DCDC" linenumber_backcolor="00F0DCDC" checkrow_hd_backcolor="00F0DCDC" vertscrollbar_style="2" hidden="1" samplerows="18" statistics_row_linenumber="0" column_sort="0" column_moveable="1" tabstop="0" popupmenu_show="-1">
+			<column>
+				<header title="은행" backcolor="00F0DCDC"/>
+				<data width="112" editable="1" meta_maxlength="" prefilldata="서울&#x0A;서울&#x0A;서울&#x0A;서울&#x0A;서울&#x0A;서울&#x0A;경기도&#x0A;경기도&#x0A;경기도&#x0A;경기도&#x0A;경기도&#x0A;경기도&#x0A;부산&#x0A;부산&#x0A;부산&#x0A;부산&#x0A;부산&#x0A;부산" bargauge_transparent="0"/>
+			</column>
+			<column>
+				<header title="지점" backcolor="00F0DCDC"/>
+				<data width="108" editable="1" meta_maxlength="" prefilldata="구로지점&#x0A;구로지점&#x0A;구로지점&#x0A;영등포지점&#x0A;여의도지점&#x0A;여의도지점&#x0A;상동지점&#x0A;상동지점&#x0A;상동지점&#x0A;중동지점&#x0A;중동지점&#x0A;중동지점&#x0A;남보민동지점&#x0A;충무동지점&#x0A;충무동지점&#x0A;남포동지점&#x0A;남포동지점&#x0A;남포동지점" bargauge_transparent="0"/>
+			</column>
+			<column>
+				<header title="직원번호" backcolor="00F0DCDC"/>
+				<data width="97" editable="1" meta_maxlength="" prefilldata="0001&#x0A;0002&#x0A;0003&#x0A;0004&#x0A;0005&#x0A;0006&#x0A;0001&#x0A;0002&#x0A;0003&#x0A;0004&#x0A;0005&#x0A;0006&#x0A;0001&#x0A;0002&#x0A;0003&#x0A;0004&#x0A;0005&#x0A;0006" bargauge_transparent="0"/>
+			</column>
+			<column>
+				<header title="직원" backcolor="00F0DCDC"/>
+				<data width="97" editable="1" meta_maxlength="" prefilldata="김차중&#x0A;박종완&#x0A;이만용&#x0A;이이성&#x0A;이규재&#x0A;이영호&#x0A;이유승&#x0A;김종화&#x0A;이희태&#x0A;김장식&#x0A;이정민&#x0A;김진만&#x0A;변정숙&#x0A;노효진&#x0A;유택현&#x0A;유헌호&#x0A;김민기&#x0A;임지호" bargauge_transparent="0"/>
+			</column>
+			<column>
+				<header title="직급" backcolor="00F0DCDC"/>
+				<data width="95" editable="1" meta_maxlength="" prefilldata="과장&#x0A;과장&#x0A;대리&#x0A;대리&#x0A;사원&#x0A;사원&#x0A;과장&#x0A;과장&#x0A;대리&#x0A;대리&#x0A;사원&#x0A;사원&#x0A;과장&#x0A;과장&#x0A;대리&#x0A;대리&#x0A;사원&#x0A;사원" bargauge_transparent="0"/>
+			</column>
+			<column>
+				<header title="단말번호" backcolor="00F0DCDC"/>
+				<data width="97" editable="1" meta_maxlength="" prefilldata="1111&#x0A;2222&#x0A;3333&#x0A;4444&#x0A;5555&#x0A;6666&#x0A;1111&#x0A;2222&#x0A;3333&#x0A;4444&#x0A;5555&#x0A;6666&#x0A;1111&#x0A;2222&#x0A;3333&#x0A;4444&#x0A;5555&#x0A;6666" bargauge_transparent="0"/>
+			</column>
+			<column>
+				<header title="IP" backcolor="00F0DCDC"/>
+				<data width="115" editable="1" meta_maxlength="" prefilldata="192.168.0.1&#x0A;192.168.0.2&#x0A;192.168.0.3&#x0A;192.168.0.4&#x0A;192.168.0.5&#x0A;192.168.0.6&#x0A;192.168.0.1&#x0A;192.168.0.2&#x0A;192.168.0.3&#x0A;192.168.0.4&#x0A;192.168.0.5&#x0A;192.168.0.6&#x0A;192.168.0.1&#x0A;192.168.0.2&#x0A;192.168.0.3&#x0A;192.168.0.4&#x0A;192.168.0.5&#x0A;192.168.0.6" bargauge_transparent="0"/>
+			</column>
+			<headermegeinfo info=""/>
+		</grid>
+	</map>
+</map_list>
