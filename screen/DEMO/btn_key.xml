@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <map_list>
 	<map>
-		<screen version="2.0" scriptcode="java" title="버튼 핫키 테스트" directory="/HYUNDAI/" screenid="btn_key" width="500" height="300"/>
+		<screen version="2.0" scriptcode="java" title="버튼 핫키 테스트" directory="/DEMO/" screenid="btn_key" last_update_date="2022-04-27 09:53:25" width="500" width_type="0" height="300" height_type="0" canvas_width="2400" canvas_height="1800" on_load="eventfunc:screen_on_load()" screen_size="0" funclist="btn1_on_mouseup,btn2_on_mouseup,btn3_on_mouseup,screen_on_load"/>
 		<tab_order order_option="0" order_info="22,18,19,20"/>
-		<pushbutton control_id="18" name="btn1" x="12" y="132" width="100" height="26" font="굴림,9,0,0,0,0" text="Alt+F1" hot_key="37" on_mouseup="eventfunc:btn1_on_mouseup(objInst)" version="1.1"/>
-		<pushbutton control_id="19" name="btn2" x="132" y="132" width="100" height="26" font="굴림,9,0,0,0,0" text="Ctrl+F2" hot_key="14" on_mouseup="eventfunc:btn2_on_mouseup(objInst)" version="1.1"/>
-		<pushbutton control_id="20" name="btn3" x="258" y="132" width="100" height="26" font="굴림,9,0,0,0,0" text="Shift+F3" hot_key="27" on_mouseup="eventfunc:btn3_on_mouseup(objInst)" version="1.1"/>
-		<numericex_field control_id="22" name="fld" autosize="0" x="12" y="66" width="366" height="48" font="굴림,20,1,0,0,0" border_color="00BEBEBE" max_length="10" meta_maxlength="" pattern="Z,ZZZ,ZZZ,ZZ9" pattern_type="1" places="2" horz_align="1" mousehover_forecolor="00FF0000" in_index="0"/>
-		<text control_id="23" x="12" y="12" width="216" height="12" font="굴림체,9,0,0,0,0" text="각 버튼은 hot_key 속성을 가지고 있음" line_gap="0" mousehover_color="00FF0000" mousehover_font="굴림체,9,0,0,0,0" mousehover_forecolor="00FF0000" version="1.1"/>
-		<text control_id="24" x="12" y="36" width="420" height="12" font="굴림체,9,0,0,0,0" text="필드에 포커스를 두고 아래 버튼에 있는 텍스트와 같은 키 입력하여 테스트" line_gap="0" mousehover_color="00FF0000" mousehover_font="굴림체,9,0,0,0,0" mousehover_forecolor="00FF0000" version="1.1"/>
+		<pushbutton control_id="18" name="btn1" x="12" y="158" right="388" bottom="116" width="100" height="26" text="Alt+F1" font="굴림,9,0,0,0,0" hover_font="맑은 고딕,9,0,0,0,0" hot_key="37" version="1.1" on_mouseup="eventfunc:btn1_on_mouseup(objInst)"/>
+		<pushbutton control_id="19" name="btn2" x="132" y="158" right="268" bottom="116" width="100" height="26" text="Ctrl+F2" font="굴림,9,0,0,0,0" hover_font="맑은 고딕,9,0,0,0,0" hot_key="14" version="1.1" on_mouseup="eventfunc:btn2_on_mouseup(objInst)"/>
+		<pushbutton control_id="20" name="btn3" x="258" y="158" right="142" bottom="116" width="100" height="26" text="Shift+F3" font="굴림,9,0,0,0,0" hover_font="맑은 고딕,9,0,0,0,0" hot_key="27" version="1.1" on_mouseup="eventfunc:btn3_on_mouseup(objInst)"/>
+		<numericex_field control_id="22" name="fld" in_index="0" autosize="0" x="12" y="66" right="122" bottom="186" width="366" height="48" font="굴림,20,1,0,0,0" border_color="00BEBEBE" horz_align="1" max_length="10" pattern="Z,ZZZ,ZZZ,ZZ9" places="2"/>
+		<text control_id="23" x="12" y="12" right="272" bottom="276" width="216" height="12" text="각 버튼은 hot_key 속성을 가지고 있음" font="굴림체,9,0,0,0,0" version="1.1"/>
+		<text control_id="24" x="12" y="36" right="68" bottom="252" width="420" height="12" text="필드에 포커스를 두고 아래 버튼에 있는 텍스트와 같은 키 입력하여 테스트" font="굴림체,9,0,0,0,0" version="1.1"/>
 	</map>
 </map_list>
