@@ -1,4 +1,5 @@
-﻿function screen_on_load()
+﻿
+function screen_on_load()
 {
 	// 두번째 줄의 4번째 칼럼에 다른 Picklist 설정
 	grdList.setitempicklist(1, 4, "/DEMO/SECT_TYPE");
