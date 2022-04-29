@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <map_list>
 	<map>
-		<screen version="2.0" scriptcode="java" title="grd_column" directory="/DEMO/" screenid="grd_column" last_update_date="2022-04-29 10:08:23" width="842" width_type="0" height="592" height_type="0" canvas_width="2400" canvas_height="1800" on_load="eventfunc:screen_on_load()" screen_size="0" funclist="screen_on_load,grdList_on_itemdblclick,grdList_on_columnmousehover"/>
+		<screen version="2.0" scriptcode="java" title="grd_column" directory="/DEMO/" screenid="grd_column" last_update_date="2022-04-29 11:41:23" width="842" width_type="0" height="592" height_type="0" canvas_width="2400" canvas_height="1800" on_load="eventfunc:screen_on_load()" on_activate="eventfunc:screen_on_activate()" screen_size="0" funclist="screen_on_load,grdList_on_itemdblclick,grdList_on_columnmousehover,screen_on_activate"/>
 		<tab_order order_option="0" order_info="61"/>
-		<grid control_id="61" name="grdList" in_index="5" x="6" y="6" right="8" bottom="160" width="828" height="426" font="맑은 고딕,9,0,0,0,0" header_font="맑은 고딕,9,0,0,0,0" header_vertcount="0" header_height="22" cell_height="22" cell_dividerowcount="1" cell_dividecolor="00D2D2D2" gradient_effect="1" linenumber_show="1" use_checkrow="1" multi_checkrow="1" vertscrollbar_style="2" fixedcols="3" version="1.2" on_itemdblclick="javascript:grdList_on_itemdblclick(nDblClickRow, nDblClickColumn)">
+		<grid control_id="61" name="grdList" in_index="5" x="6" y="6" right="8" bottom="100" width="828" height="486" font="맑은 고딕,9,0,0,0,0" header_font="맑은 고딕,9,0,0,0,0" header_vertcount="0" header_height="22" cell_height="22" cell_dividerowcount="1" cell_dividecolor="00D2D2D2" gradient_effect="1" linenumber_show="1" use_checkrow="1" multi_checkrow="1" vertscrollbar_style="2" fixedcols="3" version="1.2" on_itemdblclick="javascript:grdList_on_itemdblclick(nDblClickRow, nDblClickColumn)">
 			<column>
 				<header title="고객번호(고정)"/>
 				<data width="90" text_horzalign="1" editable="1" max_length="11" pattern="999-99999999" prefilldata="01211124311&#x0A;12412102134&#x0A;50922346434&#x0A;54672631220" bargauge_transparent="0"/>

@@ -66,3 +66,8 @@ function grdList_on_columnmousehover(objInst, bHeader, nRow, nColumn)
 	factory.loadmenu("고객세부정보", "/DEMO/grd_column_menu", nXPos, nYPos, 276, 140, screen);
 	
 }
+
+function screen_on_activate()
+{
+	
+}
