@@ -1,0 +1,241 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<map_list>
+	<map>
+		<screen version="2.0" scriptcode="java" title="(2018)검사명령관리" screenid="CRINA_Ao0500N_SC" screen_capture="0" last_update_date="2022-05-02 11:06:44" width="990" width_type="0" height="690" height_type="0" canvas_width="1980" canvas_height="1380" guideline="132,158,210,269,55,41|980,10,109,334,429,657,751" on_load="eventfunc:screen_on_load()" screen_size="0" funclist="init,searchJob,_get_sum,aaaaaaaaa,_start_init,screen_on_load,button1_on_mouseup,button2_on_mouseup,button3_on_mouseup,button4_on_mouseup,combo1_on_itemchange,button5_on_mouseup,input3_btn_on_mouseup,input4_btn_on_mouseup,datagrid1_on_itemdblclick,combo6_on_valuechanged"/>
+		<tranmap fcode="bbbbbb" etc="asfsdfsaf" type="check" defaultmap="1" mapinfo="17:O:1:0:/18:H:1:0:/19:H:1:0:/20:O:1:0:/21:O:1:0:/23:O:1:0:/25:O:1:0:/27:O:1:0:/28:O:1:0:X:1:0:X:1:0:X:1:0:O:1:0:X:1:0:X:1:0:X:1:0:X:1:0:X:1:0:X:1:0:X:1:0:X:1:0:X:1:0:X:1:0:X:1:0:X:1:0:X:1:0:X:1:0:X:1:0:X:1:0:X:1:0:X:1:0:X:1:0:X:1:0:X:1:0:X:1:0:X:1:0:X:1:0:X:1:0:X:1:0:X:1:0:X:1:0:X:1:0:H:1:0/30:O:1:0:/31:O:1:0:/0::0:0:/1::0:0:/2:S:0:0:/3:S:0:0:/4:S:0:0:/5:E:0:0:/6:E:0:0:/7:E:0:0:/8:E:0:0:/9::0:0:/10:S:0:0:/11:S:0:0:/12::0:0:/13::0:0:/14:S:0:0:/15:S:0:0:/16:S:0:0:/22:E:0:0:/24:E:0:0:/26:E:0:0:/29:S:0:0:/32:S:0:0:/33:S:0:0:/"/>
+		<tranmap fcode="dddddddd" etc="gwethfgh" type="check" defaultmap="0" mapinfo="17:O:0:1:/18:H:0:1:/19:H:0:1:/20:O:0:1:/21:O:0:1:/23:O:0:1:/25:O:0:1:/27:O:0:1:/28:O:0:1:X:0:1:X:0:1:X:0:1:O:0:1:X:0:1:X:0:1:X:0:1:X:0:1:X:0:1:X:0:1:X:0:1:X:0:1:X:0:1:X:0:1:X:0:1:X:0:1:X:0:1:X:0:1:X:0:1:X:0:1:X:0:1:X:0:1:X:0:1:X:0:1:X:0:1:X:0:1:X:0:1:X:0:1:X:0:1:X:0:1:X:0:1:X:0:1:X:0:1:H:0:1/30:O:0:1:/31:O:0:1:/0::0:0:/1::0:0:/2:S:0:0:/3:S:0:0:/4:S:0:0:/5:E:0:0:/6:E:0:0:/7:E:0:0:/8:E:0:0:/9::0:0:/10:S:0:0:/11:S:0:0:/12::0:0:/13::0:0:/14:S:0:0:/15:S:0:0:/16:S:0:0:/22:E:0:0:/24:E:0:0:/26:E:0:0:/29:S:0:0:/32:S:0:0:/33:S:0:0:/"/>
+		<traniomap id="aaaaaaa" timeout="120" custom="1">
+			<input desc="a" formatid="a">
+				<item datatype="char" objtype="edit" id="InputMapID_01" separatortag="F" type="1"/>
+				<item datatype="char" objtype="edit" id="InputMapID_02" separatortag="F" type="1"/>
+				<item datatype="char" objtype="edit" id="InputMapID_03" separatortag="F" type="1"/>
+				<item datatype="char" objtype="edit" id="InputMapID_04" separatortag="F" type="1"/>
+				<item datatype="char" objtype="edit" id="InputMapID_05" separatortag="F" type="1"/>
+				<item datatype="char" objtype="edit" id="InputMapID_06" separatortag="F" type="1"/>
+			</input>
+			<output>
+				<device desc="b" formatid="b">
+					<item datatype="char" objtype="edit" id="OutputMapID_01" separatortag="F" type="1"/>
+					<item datatype="char" objtype="edit" id="OutputMapID_02" separatortag="F" type="1"/>
+					<item datatype="char" objtype="edit" id="OutputMapID_03" separatortag="F" type="1"/>
+					<item datatype="Multi" objtype="grid" id="OutputMapID_04" separatortag="F" type="10"/>
+					<item datatype="char" objtype="edit" id="OutputMapID_05" separatortag="F" type="1"/>
+					<item datatype="char" objtype="edit" id="OutputMapID_06" separatortag="F" type="1"/>
+					<item datatype="char" objtype="edit" id="OutputMapID_07" separatortag="F" type="1"/>
+				</device>
+			</output>
+		</traniomap>
+		<tab_order order_option="2" order_info="17,19,31,20,21,23,24,5,25,26,27,28,30,6,7,8,18,22"/>
+		<rectangle control_id="0" name="rectangle1" x="10" y="54" right="10" bottom="578" width="970" height="58" font="맑은 고딕,9,0,0,0,0" back_color="00D6D6D6" border="0" transparent="0"/>
+		<rectangle control_id="1" name="rectangle6" x="590" y="55" right="11" bottom="609" width="389" height="26" font="맑은 고딕,9,0,0,0,0" back_color="00FEFAEC" border="0" transparent="0"/>
+		<image control_id="2" name="img1" autosize="0" x="0" y="0" right="990" bottom="690" width="0" height="0" transparent="0" border="0" padding="0,0,0,0" image="/RES_IMAGE/cr/com/imgs/topIcon.gif"/>
+		<image control_id="3" name="img5" autosize="0" x="32" y="0" right="10" bottom="646" width="948" height="44" transparent="0" border="0" padding="0,0,0,0" image="/RES_IMAGE/cr/com/imgs/topBg.gif"/>
+		<text control_id="4" name="caption1" autosize="0" x="42" y="0" right="738" bottom="646" width="210" height="44" text="(2018)검사명령관리" font="굴림,9,0,0,0,0" mousehover_font="맑은 고딕,9,0,0,0,0" blink_forecolor="00FFFFFF" blink_backcolor="00FF0000"/>
+		<pushbutton control_id="5" name="button1" x="780" y="15" right="165" bottom="655" width="45" height="20" text="조회" font="굴림,9,0,0,0,0" hover_font="맑은 고딕,9,0,0,0,0" version="1.1" on_mouseup="eventfunc:button1_on_mouseup(objInst)"/>
+		<pushbutton control_id="6" name="button2" x="830" y="15" right="115" bottom="655" width="45" height="20" text="엑셀" font="굴림,9,0,0,0,0" hover_font="맑은 고딕,9,0,0,0,0" version="1.1" on_mouseup="eventfunc:button2_on_mouseup(objInst)"/>
+		<pushbutton control_id="7" name="button3" x="880" y="15" right="65" bottom="655" width="45" height="20" text="인쇄" font="굴림,9,0,0,0,0" hover_font="맑은 고딕,9,0,0,0,0" version="1.1" on_mouseup="eventfunc:button3_on_mouseup(objInst)"/>
+		<pushbutton control_id="8" name="button4" x="785" y="15" right="160" bottom="655" width="45" height="20" text="종료" font="굴림,9,0,0,0,0" hover_font="맑은 고딕,9,0,0,0,0" version="1.1" on_mouseup="eventfunc:button4_on_mouseup(objInst)"/>
+		<rectangle control_id="9" name="rectangle2" x="106" y="55" right="436" bottom="609" width="448" height="26" font="맑은 고딕,9,0,0,0,0" back_color="00FEFAEC" border="0" transparent="0"/>
+		<text control_id="10" name="caption6" autosize="0" x="555" y="55" right="341" bottom="609" width="94" height="26" text="조합명" font="굴림,9,0,0,0,0" back_color="00F7EDD0" horz_align="1" mousehover_font="맑은 고딕,9,0,0,0,0" blink_forecolor="00FFFFFF" blink_backcolor="00FF0000"/>
+		<text control_id="11" name="caption7" autosize="0" x="11" y="55" right="885" bottom="609" width="94" height="26" text="조회구분" font="굴림,9,0,0,0,0" back_color="00F7EDD0" horz_align="1" mousehover_font="맑은 고딕,9,0,0,0,0" blink_forecolor="00FFFFFF" blink_backcolor="00FF0000"/>
+		<rectangle control_id="12" name="rectangle3" x="107" y="82" right="435" bottom="577" width="448" height="31" font="맑은 고딕,9,0,0,0,0" back_color="00FEFAEC" border="0" transparent="0"/>
+		<rectangle control_id="13" name="rectangle4" x="590" y="82" right="11" bottom="577" width="389" height="31" font="맑은 고딕,9,0,0,0,0" back_color="00FEFAEC" border="0" transparent="0"/>
+		<text control_id="14" name="caption11" autosize="0" x="555" y="82" right="341" bottom="577" width="94" height="31" text="검사종류" font="굴림,9,0,0,0,0" back_color="00F7EDD0" horz_align="1" mousehover_font="맑은 고딕,9,0,0,0,0" blink_forecolor="00FFFFFF" blink_backcolor="00FF0000"/>
+		<text control_id="15" name="caption12" autosize="0" x="12" y="81" right="884" bottom="578" width="94" height="31" text="검사실시기간" font="굴림,9,0,0,0,0" back_color="00F7EDD0" horz_align="1" mousehover_font="맑은 고딕,9,0,0,0,0" blink_forecolor="00FFFFFF" blink_backcolor="00FF0000"/>
+		<text control_id="16" name="caption14" autosize="0" x="225" y="87" right="750" bottom="583" width="15" height="20" text="~" font="굴림,9,0,0,0,0" mousehover_font="맑은 고딕,9,0,0,0,0" blink_forecolor="00FFFFFF" blink_backcolor="00FF0000"/>
+		<combobox control_id="17" name="combo1" autosize="0" x="110" y="58" right="780" bottom="612" width="100" height="20" font="굴림,9,0,0,0,0" back_color="0057FF8C" border="2" border_color="00000000" max_length="100" editable="0" combobox_data="del=&apos;:&apos; pos=&apos;0&apos; style=&apos;1&apos; content=&apos;:전체&#x0D;&#x0A;051:지역본부&apos;" picklist_font="맑은 고딕,9,0,0,0,0" picklist_selstyle="2" picklist_viewstyle="2" version="1.1" on_itemchange="eventfunc:combo1_on_itemchange(objInst, nprev_item, ncur_item)" rpt_instance_nm="공통코드명"/>
+		<combobox control_id="18" name="combo2" autosize="0" x="215" y="58" right="635" bottom="612" width="140" height="20" font="굴림,9,0,0,0,0" back_color="0057FF8C" border="2" border_color="00000000" hidden="1" max_length="100" editable="0" picklist_font="맑은 고딕,9,0,0,0,0" picklist_selstyle="2" picklist_viewstyle="2" version="1.1" rpt_instance_nm="공통코드명"/>
+		<combobox control_id="19" name="combo3" autosize="0" x="215" y="58" right="635" bottom="612" width="140" height="20" font="굴림,9,0,0,0,0" back_color="0057FF8C" border="2" border_color="00000000" hidden="1" max_length="100" editable="0" picklist_font="맑은 고딕,9,0,0,0,0" picklist_selstyle="2" picklist_viewstyle="2" version="1.1" rpt_instance_nm="공통코드명"/>
+		<normal_field style="normal_field_001" control_id="20" name="input1" x="570" y="58" right="176" bottom="610" width="244" height="22" font="맑은 고딕,9,0,0,0,0" max_length="30"/>
+		<normal_field control_id="21" name="input2" autosize="0" x="759" y="58" right="131" bottom="612" width="100" height="20" font="굴림,9,0,0,0,0" back_color="0057FF8C" border="3" border_color="00000000" max_length="100" tooltip="조합명"/>
+		<pushbutton control_id="22" name="button5" x="864" y="55" right="89" bottom="612" width="37" height="23" text="찾기" font="굴림,9,0,0,0,0" hover_font="맑은 고딕,9,0,0,0,0" version="1.1" on_mouseup="eventfunc:button5_on_mouseup(objInst)"/>
+		<normal_field control_id="23" name="input3" autosize="0" x="110" y="85" right="798" bottom="585" width="82" height="20" font="굴림,9,0,0,0,0" back_color="0057FF8C" border="3" border_color="00000000" max_length="8" pattern="YYYY-MM-DD"/>
+		<pushbutton control_id="24" name="input3_btn" x="193" y="85" right="780" bottom="585" width="17" height="20" text="↓" font="맑은 고딕,9,0,0,0,0" hover_font="맑은 고딕,9,0,0,0,0" version="1.1" on_mouseup="eventfunc:input3_btn_on_mouseup(objInst)"/>
+		<normal_field control_id="25" name="input4" autosize="0" x="255" y="85" right="653" bottom="585" width="82" height="20" font="굴림,9,0,0,0,0" back_color="0057FF8C" border="3" border_color="00000000" max_length="8" pattern="YYYY-MM-DD"/>
+		<pushbutton control_id="26" name="input4_btn" x="338" y="85" right="635" bottom="585" width="17" height="20" text="↓" font="맑은 고딕,9,0,0,0,0" hover_font="맑은 고딕,9,0,0,0,0" version="1.1" on_mouseup="eventfunc:input4_btn_on_mouseup(objInst)"/>
+		<combobox control_id="27" name="combo4" autosize="0" x="655" y="85" right="235" bottom="585" width="100" height="20" font="굴림,9,0,0,0,0" back_color="0057FF8C" border="2" border_color="00000000" max_length="100" editable="0" picklist_font="맑은 고딕,9,0,0,0,0" picklist_selstyle="2" picklist_viewstyle="2" version="1.1" rpt_instance_nm="공통코드명"/>
+		<grid control_id="28" name="datagrid1" x="10" y="132" right="15" bottom="28" width="965" height="530" font="굴림,9,0,0,0,0" header_font="굴림,10,0,0,0,0" header_horzcount="2" header_vertcount="0" cell_dividerowcount="1" border_color="00000000" header_clicksort="1" version="1.2" on_itemdblclick="eventfunc:datagrid1_on_itemdblclick(objInst, nDblClickRow, nDblClickColumn)">
+			<column>
+				<header title="점검" backcolor="00FFFFFF"/>
+				<header title="점검" backcolor="00FFFFFF"/>
+				<data name="col0" width="50" text_horzalign="1" font="굴림,9,0,0,0,0" editable="1" data_type="2" input_type="1" checkbox_truevalue="true" checkbox_falsevalue="false" bargauge_transparent="0"/>
+			</column>
+			<column>
+				<header title="연번" backcolor="00FFFFFF"/>
+				<header title="연번" backcolor="00FFFFFF"/>
+				<data name="col1" width="50" font="굴림,9,0,0,0,0" data_type="2" bargauge_transparent="0"/>
+			</column>
+			<column>
+				<header title="명령기안 정보" backcolor="00FFFFFF"/>
+				<header title="문서번호" backcolor="00FFFFFF"/>
+				<data name="col2" width="100" font="굴림,9,0,0,0,0" data_type="2" bargauge_transparent="0"/>
+			</column>
+			<column>
+				<header title="명령기안 정보" backcolor="00FFFFFF"/>
+				<header title="시행일자" backcolor="00FFFFFF"/>
+				<data name="col3" width="100" font="굴림,9,0,0,0,0" pattern="YYYY-MM-DD" bargauge_transparent="0"/>
+			</column>
+			<column>
+				<header title="병합 정보" backcolor="00FFFFFF"/>
+				<header title="구분" backcolor="00FFFFFF"/>
+				<data name="col4" width="49" font="굴림,9,0,0,0,0" editable="1" data_type="2" input_type="2" combobox_data="del=&apos;:&apos; pos=&apos;0&apos; style=&apos;1&apos; content=&apos;1:병합&#x0D;&#x0A;2:피병합&#x0D;&#x0A;0:&apos;" picklist_selstyle="2" picklist_viewstyle="2" bargauge_transparent="0"/>
+			</column>
+			<column>
+				<header title="병합 정보" backcolor="00FFFFFF"/>
+				<header title="병합 검사수" backcolor="00FFFFFF"/>
+				<data name="col5" width="100" font="굴림,9,0,0,0,0" data_type="2" bargauge_transparent="0"/>
+			</column>
+			<column>
+				<header title="병합 정보" backcolor="00FFFFFF"/>
+				<header title="최종 명령번호" backcolor="00FFFFFF"/>
+				<data name="col6" width="100" font="굴림,9,0,0,0,0" data_type="2" bargauge_transparent="0"/>
+			</column>
+			<column>
+				<header title="검사 명령 정보" backcolor="00FFFFFF"/>
+				<header title="명령번호" backcolor="00FFFFFF"/>
+				<data name="col7" width="100" font="굴림,9,0,0,0,0" data_type="2" bargauge_transparent="0"/>
+			</column>
+			<column>
+				<header title="검사 명령 정보" backcolor="00FFFFFF"/>
+				<header title="검사기관" backcolor="00FFFFFF"/>
+				<data name="col8" width="100" font="굴림,9,0,0,0,0" data_type="2" bargauge_transparent="0"/>
+			</column>
+			<column>
+				<header title="검사 명령 정보" backcolor="00FFFFFF"/>
+				<header title="실행부서" backcolor="00FFFFFF"/>
+				<data name="col9" width="100" font="굴림,9,0,0,0,0" data_type="2" bargauge_transparent="0"/>
+			</column>
+			<column>
+				<header title="검사 명령 정보" backcolor="00FFFFFF"/>
+				<header title="검사종류" backcolor="00FFFFFF"/>
+				<data name="col10" width="100" font="굴림,9,0,0,0,0" data_type="2" bargauge_transparent="0"/>
+			</column>
+			<column>
+				<header title="검사 명령 정보" backcolor="00FFFFFF"/>
+				<header title="검사유형" backcolor="00FFFFFF"/>
+				<data name="col11" width="100" font="굴림,9,0,0,0,0" data_type="2" bargauge_transparent="0"/>
+			</column>
+			<column>
+				<header title="검사 명령 정보" backcolor="00FFFFFF"/>
+				<header title="지역본부" backcolor="00FFFFFF"/>
+				<data name="col12" width="100" font="굴림,9,0,0,0,0" data_type="2" bargauge_transparent="0"/>
+			</column>
+			<column>
+				<header title="검사 명령 정보" backcolor="00FFFFFF"/>
+				<header title="지역" backcolor="00FFFFFF"/>
+				<data name="col13" font="굴림,9,0,0,0,0" data_type="2" bargauge_transparent="0"/>
+			</column>
+			<column>
+				<header title="검사 명령 정보" backcolor="00FFFFFF"/>
+				<header title="공동유대" backcolor="00FFFFFF"/>
+				<data name="col14" font="굴림,9,0,0,0,0" data_type="2" bargauge_transparent="0"/>
+			</column>
+			<column>
+				<header title="검사 명령 정보" backcolor="00FFFFFF"/>
+				<header title="인가번호" backcolor="00FFFFFF"/>
+				<data name="col15" font="굴림,9,0,0,0,0" pattern="99-999" bargauge_transparent="0"/>
+			</column>
+			<column>
+				<header title="검사 명령 정보" backcolor="00FFFFFF"/>
+				<header title="조합명" backcolor="00FFFFFF"/>
+				<data name="col16" width="120" font="굴림,9,0,0,0,0" data_type="2" bargauge_transparent="0"/>
+			</column>
+			<column>
+				<header title="검사 명령 정보" backcolor="00FFFFFF"/>
+				<header title="검사시작일" backcolor="00FFFFFF"/>
+				<data name="col17" width="100" font="굴림,9,0,0,0,0" pattern="YYYY-MM-DD" bargauge_transparent="0"/>
+			</column>
+			<column>
+				<header title="검사 명령 정보" backcolor="00FFFFFF"/>
+				<header title="검사종료일" backcolor="00FFFFFF"/>
+				<data name="col18" width="100" font="굴림,9,0,0,0,0" pattern="YYYY-MM-DD" bargauge_transparent="0"/>
+			</column>
+			<column>
+				<header title="검사 명령 정보" backcolor="00FFFFFF"/>
+				<header title="검사일수" backcolor="00FFFFFF"/>
+				<data name="col19" width="60" font="굴림,9,0,0,0,0" data_type="2" bargauge_transparent="0"/>
+			</column>
+			<column>
+				<header title="검사 연장 정보" backcolor="00FFFFFF"/>
+				<header title="연장시작일" backcolor="00FFFFFF"/>
+				<data name="col20" width="100" font="굴림,9,0,0,0,0" pattern="YYYY-MM-DD" bargauge_transparent="0"/>
+			</column>
+			<column>
+				<header title="검사 연장 정보" backcolor="00FFFFFF"/>
+				<header title="연장종료일" backcolor="00FFFFFF"/>
+				<data name="col21" width="100" font="굴림,9,0,0,0,0" pattern="YYYY-MM-DD" bargauge_transparent="0"/>
+			</column>
+			<column>
+				<header title="검사 연장 정보" backcolor="00FFFFFF"/>
+				<header title="연장일수" backcolor="00FFFFFF"/>
+				<data name="col22" width="60" font="굴림,9,0,0,0,0" data_type="2" bargauge_transparent="0"/>
+			</column>
+			<column>
+				<header title="검사반 정보" backcolor="00FFFFFF"/>
+				<header title="반장" backcolor="00FFFFFF"/>
+				<data name="col23" width="100" font="굴림,9,0,0,0,0" data_type="2" bargauge_transparent="0"/>
+			</column>
+			<column>
+				<header title="검사반 정보" backcolor="00FFFFFF"/>
+				<header title="반원1" backcolor="00FFFFFF"/>
+				<data name="col24" width="100" font="굴림,9,0,0,0,0" data_type="2" bargauge_transparent="0"/>
+			</column>
+			<column>
+				<header title="검사반 정보" backcolor="00FFFFFF"/>
+				<header title="반원2" backcolor="00FFFFFF"/>
+				<data name="col25" width="100" font="굴림,9,0,0,0,0" data_type="2" bargauge_transparent="0"/>
+			</column>
+			<column>
+				<header title="검사반 정보" backcolor="00FFFFFF"/>
+				<header title="반원3" backcolor="00FFFFFF"/>
+				<data name="col26" width="100" font="굴림,9,0,0,0,0" data_type="2" bargauge_transparent="0"/>
+			</column>
+			<column>
+				<header title="검사반 정보" backcolor="00FFFFFF"/>
+				<header title="반원4" backcolor="00FFFFFF"/>
+				<data name="col27" width="100" font="굴림,9,0,0,0,0" data_type="2" bargauge_transparent="0"/>
+			</column>
+			<column>
+				<header title="검사반 정보" backcolor="00FFFFFF"/>
+				<header title="반원5" backcolor="00FFFFFF"/>
+				<data name="col28" width="100" font="굴림,9,0,0,0,0" data_type="2" bargauge_transparent="0"/>
+			</column>
+			<column>
+				<header title="검사반 정보" backcolor="00FFFFFF"/>
+				<header title="반원6" backcolor="00FFFFFF"/>
+				<data name="col29" width="100" font="굴림,9,0,0,0,0" data_type="2" bargauge_transparent="0"/>
+			</column>
+			<column>
+				<header title="검사반 정보" backcolor="00FFFFFF"/>
+				<header title="반원7" backcolor="00FFFFFF"/>
+				<data name="col30" width="100" font="굴림,9,0,0,0,0" data_type="2" bargauge_transparent="0"/>
+			</column>
+			<column>
+				<header title="검사반 정보" backcolor="00FFFFFF"/>
+				<header title="반원8" backcolor="00FFFFFF"/>
+				<data name="col31" width="100" font="굴림,9,0,0,0,0" data_type="2" bargauge_transparent="0"/>
+			</column>
+			<column>
+				<header title="명령 등록자 정보" backcolor="00FFFFFF"/>
+				<header title="사번" backcolor="00FFFFFF"/>
+				<data name="col32" width="100" font="굴림,9,0,0,0,0" data_type="2" bargauge_transparent="0"/>
+			</column>
+			<column>
+				<header title="명령 등록자 정보" backcolor="00FFFFFF"/>
+				<header title="성명" backcolor="00FFFFFF"/>
+				<data name="col33" width="100" font="굴림,9,0,0,0,0" data_type="2" bargauge_transparent="0"/>
+			</column>
+			<column>
+				<header title="숨김필드" backcolor="00FFFFFF"/>
+				<header title="명령상태" backcolor="00FFFFFF"/>
+				<data name="col34" width="100" font="굴림,9,0,0,0,0" hidden="1" data_type="2" excel_rw="0" bargauge_transparent="0"/>
+			</column>
+			<headermegeinfo info="0,0,1,0:0,1,1,1:"/>
+		</grid>
+		<text control_id="29" name="caption2" autosize="0" x="771" y="82" right="125" bottom="582" width="94" height="26" text="검사유형" font="굴림,9,0,0,0,0" back_color="00F7EDD0" horz_align="1" mousehover_font="맑은 고딕,9,0,0,0,0" blink_forecolor="00FFFFFF" blink_backcolor="00FF0000"/>
+		<combobox control_id="30" name="combo5" autosize="0" x="870" y="85" right="20" bottom="585" width="100" height="20" font="굴림,9,0,0,0,0" back_color="0057FF8C" border="2" border_color="00000000" max_length="100" editable="0" picklist_font="맑은 고딕,9,0,0,0,0" picklist_selstyle="2" picklist_viewstyle="2" version="1.1" rpt_instance_nm="공통코드명"/>
+		<combobox control_id="31" name="combo6" autosize="0" x="438" y="58" right="442" bottom="612" width="110" height="20" font="굴림,9,0,0,0,0" back_color="0057FF8C" border="2" border_color="00000000" max_length="100" editable="0" picklist_font="맑은 고딕,9,0,0,0,0" picklist_selstyle="2" picklist_viewstyle="2" version="1.1" rpt_instance_nm="공통코드명"/>
+		<text control_id="32" name="caption3" autosize="0" x="356" y="55" right="555" bottom="609" width="79" height="26" text="실행부서" font="굴림,9,0,0,0,0" back_color="00F7EDD0" horz_align="1" mousehover_font="맑은 고딕,9,0,0,0,0" blink_forecolor="00FFFFFF" blink_backcolor="00FF0000"/>
+		<text control_id="33" name="caption4" autosize="0" x="15" y="665" right="10" bottom="5" width="965" height="20" text="* 검사명령을 더블클릭 하시면 상세조회/변경/기한연장 처리가 가능합니다." font="굴림,9,1,0,0,0" fore_color="000000FF" mousehover_font="맑은 고딕,9,0,0,0,0" blink_forecolor="00FFFFFF" blink_backcolor="00FF0000"/>
+	</map>
+</map_list>
