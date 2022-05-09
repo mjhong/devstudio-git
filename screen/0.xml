@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <map_list>
 	<map>
-		<screen version="2.0" scriptcode="java" title="워크플로우" screen_hashtag="&quot;가나다라&quot;;&quot;1234&quot;;&quot;5678&quot;;" screenid="0" last_update_date="2022-05-02 10:51:39" width="900" width_type="1" height="600" height_type="1" canvas_width="2400" canvas_height="1800" on_load="eventfunc:screen_on_load()" screen_size="0" funclist="screen_on_load,procBiz_on_click"/>
+		<screen version="2.0" scriptcode="java" title="워크플로우" screen_hashtag="&quot;가나다라&quot;;&quot;1234&quot;;&quot;5678&quot;;" screenid="0" last_update_date="2022-05-09 11:49:04" width="900" width_type="1" height="600" height_type="1" canvas_width="2400" canvas_height="1800" on_load="eventfunc:screen_on_load()" screen_size="0" funclist="screen_on_load,procBiz_on_click"/>
 		<tab_order order_option="0" order_info="314,254,267,270,268,269,288,273,274,298,289"/>
 		<rectangle control_id="259" x="0" y="300" right="0" bottom="0" width="900" height="300" font="맑은 고딕,9,0,0,0,0" back_color="00F0F0F0" border="0" transparent="0"/>
 		<text control_id="262" autosize="0" x="0" y="0" right="800" bottom="300" width="100" height="300" text="해당지도부서&#x0D;&#x0A;(코드승인&#x0D;&#x0A;담당자)" font="맑은 고딕,9,0,0,0,0" border_ex="0,0,00B4B4B4,,0,,0,0,1,0,00FFFFFF,00E1E1E1^0,0,00B4B4B4,1^1,1,00B4B4B4,1^0,0,00B4B4B4,1^0,0,00B4B4B4,1" horz_align="1" version="1.1"/>
@@ -43,6 +43,6 @@
 		<ellipse control_id="276" x="519" y="468" right="327" bottom="102" width="54" height="30" text="END" font="맑은 고딕,9,0,0,0,0" border_color="00000000" transparent="0"/>
 		<titlebox control_id="273" name="titlebox07" x="486" y="336" right="294" bottom="192" width="120" height="72" text="11-0007&#x0D;&#x0A;상품신청내역조회" font="맑은 고딕,9,0,0,0,0" title="통합기준정보" title_font="맑은 고딕,9,1,0,0,0" border_color="00000000" transparent="0" title_transparent="0" on_click="eventfunc:procBiz_on_click(objInst)"/>
 		<flowline control_id="313" x="396" y="83" point_arr="396,150;396,83;690,83;690,174" right="210" bottom="426" arrow_style="1" connect_start="267,0" connect_end="269,0"/>
-		<pushbutton control_id="314" x="419" y="30" right="381" bottom="544" width="100" height="26" font="맑은 고딕,9,0,0,0,0" hover_font="맑은 고딕,9,0,0,0,0" version="1.1"/>
+		<pushbutton control_id="314" x="305" y="24" right="495" bottom="550" width="100" height="26" font="맑은 고딕,9,0,0,0,0" hover_font="맑은 고딕,9,0,0,0,0" version="1.1"/>
 	</map>
 </map_list>
