@@ -111,3 +111,8 @@ function getValue2(AType, AOpt)
 {
 	return "";
 }
+
+function screen_on_activate()
+{
+	
+}
