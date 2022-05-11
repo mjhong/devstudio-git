@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<map_list>
+	<map>
+		<screen version="2.0" scriptcode="java" title="통합테스트 상황관리" directory="/DEBUG/" screenid="10998100" last_update_date="2022-05-11 08:40:47" width="980" width_type="0" height="817" height_type="0" canvas_width="1020" canvas_height="817" on_load="eventfunc:screen_on_load()" on_trancomplete="eventfunc:screen_on_trancomplete(mapid, result, recv_userheader, recv_code, recv_msg, recv_data)" screen_size="0" funclist="GetTestSeq,screen_on_load,ProcessLink,StartTran,snda000101r_outstr_sub_on_itemdblclick,btnNext_on_mouseup,screen_on_trancomplete,AddTestData,btnSaveApproval_on_mouseup,prcs_chrg_empno_on_keydown,frs_rgs_empno_on_keydown,btnInqUsr_on_mouseup,btnInqUsr2_on_mouseup,SetData_102003,screen_on_activate,tst_dscd_on_focusout,act_stcd_on_focusout,tst_dft_tp_cd_on_focusout,bz_dscd_on_focusout,btnFrDt_on_mouseup,btnToDt_on_mouseup,excel_btn_on_mouseup,scrn_no_on_change,scrn_no_on_keydown,btnRgs_on_mouseup,btnSelect_on_mouseup,test_on_click"/>
+		<tranmap fcode="I" etc="sdfsdf" type="check" defaultmap="1" mapinfo="834:X:1:0:X:0:0:X:0:1:X:0:0:X:1:0:X:0:1:X:0:0:X:0:0:X:0:0:X:0:0:X:0:0:X:0:0:X:0:0:X:0:0:X:0:0:X:0:0:X:0:0:X:0:0:X:0:0:X:0:0:X:0:0:X:0:0:X:0:0:X:0:0:X:0:0:X:0:0:X:0:0:X:0:0:X:0:0:X:0:0:X:0:0:X:0:0/630:O:0:0:/623:O:0:0:/400:O:0:0:/620:O:0:0:/746:O:0:0:/748:O:0:0:/295:O:0:0:/833:O:0:0:/836:O:0:0:/838:O:0:0:/2566:O:0:0:/2567:O:0:0:/700:O:0:0:/2569:O:0:0:/458:S:0:0:/450:S:0:0:/655:S:0:0:/2568:S:0:0:/742:S:0:0:/837:S:0:0:/453:S:0:0:/"/>
+		<tab_order order_option="0" order_info="655,2568,622,450,834,458,630,623"/>
+		<panel style="PNL_COLOR1" control_id="622" semantic_tag="0" x="0" y="24" right="30" bottom="663" width="950" height="130" border_color="00E0C6B8" title_font="맑은 고딕,9,0,0,0,0">
+			<tab_order order_option="0" order_info="620,700,2569,400,746,748,2567,2566,833,742,295,836,837,838,453"/>
+			<text style="TXT_NORMAL" control_id="7" x="10" y="40" right="890" bottom="68" width="48" height="20" text="업무구분" font="맑은 고딕,9,0,0,0,0" back_color="00EEDED5"/>
+			<combobox style="COMBOBOX_NONE" control_id="400" name="bz_dscd" description="업무구분코드" autosize="0" x="68" y="40" right="680" bottom="68" width="200" height="20" font="맑은 고딕,9,0,0,0,0" fore_color="003A3A3A" back_color="0057FF8C" border_color="00D4D4D4" border_color_focus="00D4D4D4" default_value="0" max_length="2" combobox_data="del=&apos;:&apos; pos=&apos;0&apos; style=&apos;1&apos; content=&apos;00:전체&#x0D;&#x0A;01:대차중개&#x0D;&#x0A;02:REPO중개&#x0D;&#x0A;03:공통관리&#x0D;&#x0A;04:업무공통&#x0D;&#x0A;&apos;" picklist_font="맑은 고딕,9,0,0,0,0" picklist_selstyle="1" version="1.1" on_focusout="eventfunc:bz_dscd_on_focusout(objInst, focusouttype)" rpt_instance_nm="공통코드명"/>
+			<text style="TXT_NORMAL" control_id="1" x="10" y="10" right="902" bottom="98" width="36" height="20" text="시스템" font="맑은 고딕,9,0,0,0,0" back_color="00EEDED5" on_click="eventfunc:test_on_click(objInst)"/>
+			<combobox style="COMBOBOX_NONE" control_id="620" name="tst_dscd" description="테스트구분코드" autosize="0" x="68" y="10" right="680" bottom="98" width="200" height="20" font="맑은 고딕,9,0,0,0,0" fore_color="00363636" back_color="0057FF8C" border_color="00D4D4D4" border_color_focus="00D4D4D4" default_value="0" max_length="1" combobox_data="del=&apos;:&apos; pos=&apos;0&apos; style=&apos;1&apos; content=&apos;2:테스트&#x0D;&#x0A;&apos;" picklist_font="맑은 고딕,9,0,0,0,0" picklist_selstyle="2" picklist_viewstyle="2" version="1.1" on_focusout="eventfunc:tst_dscd_on_focusout(objInst, focusouttype)" rpt_instance_nm="공통코드명"/>
+			<text style="TXT_NORMAL" control_id="631" x="380" y="10" right="520" bottom="98" width="48" height="20" text="조회기간" font="맑은 고딕,9,0,0,0,0" back_color="00EEDED5" border_color="00EEDED5"/>
+			<text style="TXT_NORMAL" control_id="30" x="543" y="10" right="397" bottom="98" width="8" height="20" text="~" font="맑은 고딕,9,0,0,0,0" back_color="00EEDED5" border_color="00EEDED5"/>
+			<text style="TXT_NORMAL" control_id="745" x="380" y="40" right="520" bottom="68" width="48" height="20" text="조치상태" font="맑은 고딕,9,0,0,0,0" back_color="00EEDED5"/>
+			<combobox style="COMBOBOX_NONE" control_id="746" name="act_stcd" description="조치상태코드" autosize="0" x="438" y="40" right="386" bottom="68" width="124" height="20" font="맑은 고딕,9,0,0,0,0" fore_color="00363636" back_color="0057FF8C" border_color="00D4D4D4" border_color_focus="00D4D4D4" default_value="1" max_length="1" combobox_data="del=&apos;:&apos; pos=&apos;0&apos; style=&apos;1&apos; content=&apos;0:전체&#x0D;&#x0A;1:미접수&#x0D;&#x0A;2:접수&#x0D;&#x0A;3:조치완료&#x0D;&#x0A;4:보류&#x0D;&#x0A;5:수용불가&#x0D;&#x0A;6:결함아님&#x0D;&#x0A;7:테스터확인&apos;" picklist_font="맑은 고딕,9,0,0,0,0" picklist_selstyle="1" version="1.1" on_focusout="eventfunc:act_stcd_on_focusout(objInst, focusouttype)" rpt_instance_nm="공통코드명"/>
+			<text style="TXT_NORMAL" control_id="747" x="10" y="70" right="914" bottom="38" width="24" height="20" text="유형" font="맑은 고딕,9,0,0,0,0" back_color="00EEDED5"/>
+			<combobox style="COMBOBOX_NONE" control_id="748" name="tst_dft_tp_cd" description="결함유형코드" autosize="0" x="68" y="70" right="680" bottom="38" width="200" height="20" font="맑은 고딕,9,0,0,0,0" fore_color="00363636" back_color="0057FF8C" border_color="00D4D4D4" border_color_focus="00D4D4D4" default_value="1" max_length="1" combobox_data="del=&apos;:&apos; pos=&apos;0&apos; style=&apos;1&apos; content=&apos;0:전체&#x0D;&#x0A;C:질의/응답 요청&#x0D;&#x0A;1:기능(조회,입력,수정,삭제,승인 등) 오류(상)&#x0D;&#x0A;2:인터페이스 오류(상)&#x0D;&#x0A;3:장시간 Waiting(상)&#x0D;&#x0A;4:시스템 에러(상)&#x0D;&#x0A;5:보고서 출력 오류(중)&#x0D;&#x0A;6:입력값 검증 오류(중)&#x0D;&#x0A;7:표준준수 오류(중)&#x0D;&#x0A;8:메세지 오류(하)&#x0D;&#x0A;9:개선/추가요구사항(하)&#x0D;&#x0A;A:기타 결함(하)&apos;" picklist_font="맑은 고딕,9,0,0,0,0" picklist_selstyle="1" version="1.1" on_focusout="eventfunc:tst_dft_tp_cd_on_focusout(objInst, focusouttype)" rpt_instance_nm="공통코드명"/>
+			<hangul_field style="KOR_LOCK_NONE" control_id="295" name="prcs_prch_nm" description="사용사원명" x="153" y="100" right="551" bottom="8" width="244" height="20" font="맑은 고딕,9,0,0,0,0" back_color="0057FF8C" border_color="00D4D4D4" border_color_focus="00D4D4D4" max_length="40" tabstop="0" invalid_text=""/>
+			<pushbutton style="BTN_POPUP" control_id="742" name="btnInqUsr" x="128" y="100" right="800" bottom="8" width="20" height="20" text="" font="돋움,9,0,0,0,0" fore_color="00FFFFFF" back_color="00EEDED5" drawfocusrect="0" hover_font="맑은 고딕,9,0,0,0,0" version="1.1" on_mouseup="eventfunc:btnInqUsr_on_mouseup(objInst)"/>
+			<normal_field style="FLD_NONE" control_id="833" name="prcs_chrg_empno" description="사용사원번호" x="68" y="100" right="836" bottom="8" width="44" height="20" font="맑은 고딕,9,0,0,0,0" back_color="0057FF8C" border_color="00D4D4D4" horz_align="2" max_length="5" make_case="1" on_keydown="eventfunc:prcs_chrg_empno_on_keydown(objInst, keycode, bctrldown, bshiftdown, baltdown, bnumpadkey)"/>
+			<caption style="CAPTION_PANEL" control_id="27" autosize="0" x="10" y="100" right="888" bottom="8" width="50" height="20" text="조치자" font="맑은 고딕,9,0,0,0,0" transparent="1" mousehover_font="맑은 고딕,9,0,0,0,0" version=""/>
+			<caption style="CAPTION_PANEL" control_id="835" autosize="0" x="380" y="100" right="518" bottom="8" width="50" height="20" text="등록자" font="맑은 고딕,9,0,0,0,0" transparent="1" mousehover_font="맑은 고딕,9,0,0,0,0" version=""/>
+			<normal_field style="FLD_NONE" control_id="836" name="frs_rgs_empno" description="사용사원번호" x="438" y="100" right="466" bottom="8" width="44" height="20" font="맑은 고딕,9,0,0,0,0" back_color="0057FF8C" border_color="00D4D4D4" horz_align="2" max_length="5" make_case="1" on_keydown="eventfunc:frs_rgs_empno_on_keydown(objInst, keycode, bctrldown, bshiftdown, baltdown, bnumpadkey)"/>
+			<pushbutton style="BTN_POPUP" control_id="837" name="btnInqUsr2" x="498" y="100" right="430" bottom="8" width="20" height="20" text="" font="돋움,9,0,0,0,0" fore_color="00FFFFFF" back_color="00EEDED5" drawfocusrect="0" hover_font="맑은 고딕,9,0,0,0,0" version="1.1" on_mouseup="eventfunc:btnInqUsr2_on_mouseup(objInst)"/>
+			<hangul_field style="KOR_LOCK_NONE" control_id="838" name="frs_rgs_nm" description="사용사원명" x="523" y="100" right="181" bottom="8" width="244" height="20" font="맑은 고딕,9,0,0,0,0" back_color="0057FF8C" border_color="00D4D4D4" border_color_focus="00D4D4D4" max_length="40" tabstop="0" invalid_text=""/>
+			<text style="TXT_NORMAL" control_id="2565" x="380" y="70" right="520" bottom="38" width="48" height="20" text="화면번호" font="맑은 고딕,9,0,0,0,0" back_color="00EEDED5"/>
+			<normal_field style="FLD_NONE" control_id="2566" name="scrn_no" description="화면번호" x="438" y="70" right="458" bottom="38" width="52" height="20" font="맑은 고딕,9,0,0,0,0" back_color="0057FF8C" border_color="00D4D4D4" horz_align="2" max_length="6" make_case="1" on_keydown="eventfunc:scrn_no_on_keydown(objInst, keycode, bctrldown, bshiftdown, baltdown, bnumpadkey)" on_change="javascript:scrn_no_on_change()"/>
+			<hangul_field style="KORFLD_NONE" control_id="2567" name="scrn_nm" description="화면명" x="344" y="70" right="0" bottom="38" width="604" height="20" font="맑은 고딕,9,0,0,0,0" back_color="0057FF8C" max_length="100" tabstop="0" invalid_text=""/>
+			<datepicker style="DATEPICKER_NONE" control_id="700" name="inq_st_dt" description="조회시작일자" in_index="2" autosize="0" x="438" y="10" right="410" bottom="98" width="100" height="20" font="맑은 고딕,9,0,0,0,0" calendar_font="굴림체,9,0,0,0,0" back_color="0057FF8C" transparent="0" text_margin="1,1,1,1"/>
+			<datepicker style="DATEPICKER_NONE" control_id="2569" name="inq_nd_dt" description="조회종료일자" in_index="2" autosize="0" x="557" y="10" right="291" bottom="98" width="100" height="20" font="맑은 고딕,9,0,0,0,0" calendar_font="굴림체,9,0,0,0,0" back_color="0057FF8C" transparent="0" text_margin="1,1,1,1"/>
+			<pushbutton style="BTN_COLOR2" control_id="453" name="btnSelect" anchor="2" x="892" y="100" right="6" bottom="8" width="50" height="20" text="조회" font="맑은 고딕,9,0,0,0,0" drawfocusrect="0" hover_font="맑은 고딕,9,0,0,0,0" version="1.1" on_mouseup="eventfunc:btnSelect_on_mouseup(objInst)"/>
+		</panel>
+		<grid style="GRID_NONE" control_id="834" name="snda000101r_outstr_sub" x="0" y="186" right="30" bottom="66" width="950" height="565" font="맑은 고딕,9,0,0,0,0" header_font="맑은 고딕,9,0,0,0,0" header_vertcount="0" cell_dividecolor="00F2F2F2" selectcell_backcolor="00FDF8EB" selectcell_forecolor="001E1E1E" header_clicksort="1" linenumber_hd_forecolor="00484135" linenumber_hd_backcolor="00FEF8EB" linenumber_forecolor="00484135" linenumber_backcolor="00FEF8EB" checkrow_hd_backcolor="00FEF8EB" samplerows="0" version="1.1" on_itemdblclick="eventfunc:snda000101r_outstr_sub_on_itemdblclick(objInst, nDblClickRow, nDblClickColumn, bBtnClick, nImgIndex, strImgUrl)">
+			<column>
+				<header title="시행차수" forecolor="00754F49" backcolor="00FEF8EB"/>
+				<data name="tst_dscd" width="0" forecolor="00363636" text_wordellipsis="0" input_type="2" max_length="1" combobox_data="del=&apos;:&apos; pos=&apos;0&apos; style=&apos;1&apos; content=&apos;2:2단계_현업 테스트&#x0D;&#x0A;3:3단계_전체참가자 테스트&#x0D;&#x0A;4:운영 테스트&apos;" combobox_excelstyle="3" picklist_selstyle="1" bargauge_transparent="0"/>
+			</column>
+			<column>
+				<header title="등록일자" forecolor="00754F49" backcolor="00FEF8EB"/>
+				<data name="rgs_dt" width="70" forecolor="00363636" text_horzalign="1" text_wordellipsis="0" max_length="8" pattern="YYYY-MM-DD" bargauge_transparent="0"/>
+			</column>
+			<column>
+				<header title="업무구분" forecolor="00754F49" backcolor="00FEF8EB"/>
+				<data name="bz_dscd" width="86" forecolor="00363636" text_wordellipsis="0" input_type="2" max_length="2" combobox_data="del=&apos;:&apos; pos=&apos;0&apos; style=&apos;1&apos; content=&apos;01:대차중개&#x0D;&#x0A;02:REPO중개&#x0D;&#x0A;03:공통관리&#x0D;&#x0A;04:업무공통&#x0D;&#x0A;&apos;" combobox_excelstyle="3" picklist_selstyle="2" picklist_viewstyle="2" bargauge_transparent="0"/>
+			</column>
+			<column>
+				<header title="화면번호" forecolor="00754F49" backcolor="00FEF8EB"/>
+				<data name="scrn_no" width="56" forecolor="00363636" text_horzalign="1" text_wordellipsis="0" max_length="6" bargauge_transparent="0"/>
+			</column>
+			<column>
+				<header title="Seq" forecolor="00754F49" backcolor="00FEF8EB"/>
+				<data name="rgs_sno" width="39" forecolor="00363636" text_horzalign="2" text_wordellipsis="0" data_type="0" max_length="9" pattern="ZZZZZ" bargauge_transparent="0"/>
+			</column>
+			<column>
+				<header title="화면명" forecolor="00754F49" backcolor="00FEF8EB"/>
+				<data name="scrn_nm" width="120" forecolor="00363636" text_wordellipsis="0" max_length="100" bargauge_transparent="0"/>
+			</column>
+			<column>
+				<header title="조치상태" forecolor="00754F49" backcolor="00FEF8EB"/>
+				<data name="act_stcd" forecolor="00363636" text_wordellipsis="0" input_type="2" max_length="1" combobox_editable="0" combobox_data="del=&apos;:&apos; pos=&apos;0&apos; style=&apos;1&apos; content=&apos;1:미접수&#x0D;&#x0A;2:접수&#x0D;&#x0A;3:조치완료&#x0D;&#x0A;4:보류&#x0D;&#x0A;5:수용불가&#x0D;&#x0A;6:결함아님&#x0D;&#x0A;7:테스트확인&apos;" combobox_excelstyle="3" picklist_selstyle="1" bargauge_transparent="0"/>
+			</column>
+			<column>
+				<header title="제목" forecolor="00754F49" backcolor="00FEF8EB"/>
+				<data name="rgs_ttl" width="170" forecolor="00363636" text_wordellipsis="0" max_length="100" bargauge_transparent="0"/>
+			</column>
+			<column>
+				<header title="결함내용" forecolor="00754F49" backcolor="00FEF8EB"/>
+				<data name="dft_cts" width="0" forecolor="00363636" text_wordellipsis="0" max_length="500" bargauge_transparent="0"/>
+			</column>
+			<column>
+				<header title="유형" forecolor="00754F49" backcolor="00FEF8EB"/>
+				<data name="tst_dft_tp_cd" width="130" forecolor="00363636" text_wordellipsis="0" input_type="2" max_length="1" combobox_data="del=&apos;:&apos; pos=&apos;0&apos; style=&apos;1&apos; content=&apos;0:전체&#x0D;&#x0A;C:질의/응답 요청&#x0D;&#x0A;1:기능(조회,입력,수정,삭제,승인 등) 오류(상)&#x0D;&#x0A;2:인터페이스 오류(상)&#x0D;&#x0A;3:장시간 Waiting(상)&#x0D;&#x0A;4:시스템 에러(상)&#x0D;&#x0A;5:보고서 출력 오류(중)&#x0D;&#x0A;6:입력값 검증 오류(중)&#x0D;&#x0A;7:표준준수 오류(중)&#x0D;&#x0A;8:메세지 오류(하)&#x0D;&#x0A;9:개선/추가요구사항(하)&#x0D;&#x0A;A:기타 결함(하)&#x0D;&#x0A;B:데이타 오류(하)&apos;" combobox_excelstyle="3" picklist_selstyle="1" bargauge_transparent="0"/>
+			</column>
+			<column>
+				<header title="접수일자" forecolor="00754F49" backcolor="00FEF8EB"/>
+				<data name="acp_dt" width="71" forecolor="00363636" text_wordellipsis="0" max_length="8" pattern="YYYY-MM-DD" bargauge_transparent="0"/>
+			</column>
+			<column>
+				<header title="접수사원번호" forecolor="00754F49" backcolor="00FEF8EB"/>
+				<data name="acp_empno" width="0" forecolor="00363636" text_wordellipsis="0" max_length="5" bargauge_transparent="0"/>
+			</column>
+			<column>
+				<header title="접수자명" forecolor="00754F49" backcolor="00FEF8EB"/>
+				<data name="prcsr_nm" width="0" forecolor="00363636" text_wordellipsis="0" max_length="40" bargauge_transparent="0"/>
+			</column>
+			<column>
+				<header title="조치자사원번호" forecolor="00754F49" backcolor="00FEF8EB"/>
+				<data name="prcs_chrg_empno" width="0" forecolor="00363636" text_wordellipsis="0" max_length="5" bargauge_transparent="0"/>
+			</column>
+			<column>
+				<header title="접수자" forecolor="00754F49" backcolor="00FEF8EB"/>
+				<data name="prcs_prch_nm" width="63" forecolor="00363636" text_wordellipsis="0" max_length="40" bargauge_transparent="0"/>
+			</column>
+			<column>
+				<header title="조치내용" forecolor="00754F49" backcolor="00FEF8EB"/>
+				<data name="dft_prcs_cts" width="158" forecolor="00363636" text_wordellipsis="0" max_length="500" bargauge_transparent="0"/>
+			</column>
+			<column>
+				<header title="예정완료일" forecolor="00754F49" backcolor="00FEF8EB"/>
+				<data name="prr_cplt_dt" width="74" forecolor="00363636" text_wordellipsis="0" max_length="8" pattern="YYYY-MM-DD" bargauge_transparent="0"/>
+			</column>
+			<column>
+				<header title="실제완료일" forecolor="00754F49" backcolor="00FEF8EB"/>
+				<data name="rl_cplt_dt" width="75" forecolor="00363636" text_wordellipsis="0" max_length="8" pattern="YYYY-MM-DD" bargauge_transparent="0"/>
+			</column>
+			<column>
+				<header title="최종승인사원번호" forecolor="00754F49" backcolor="00FEF8EB"/>
+				<data name="lst_aprv_empno" width="0" forecolor="00363636" text_wordellipsis="0" max_length="5" bargauge_transparent="0"/>
+			</column>
+			<column>
+				<header title="승인일시" forecolor="00754F49" backcolor="00FEF8EB"/>
+				<data name="aprv_dttm" width="0" forecolor="00363636" text_wordellipsis="0" max_length="14" bargauge_transparent="0"/>
+			</column>
+			<column>
+				<header title="승인여부" forecolor="00754F49" backcolor="00FEF8EB"/>
+				<data name="aprv_yn" width="0" forecolor="00363636" text_wordellipsis="0" max_length="1" bargauge_transparent="0"/>
+			</column>
+			<column>
+				<header title="소속부점코드" forecolor="00754F49" backcolor="00FEF8EB"/>
+				<data name="blnt_bdcd" width="0" forecolor="00363636" text_wordellipsis="0" max_length="4" bargauge_transparent="0"/>
+			</column>
+			<column>
+				<header title="소속부점코드명" forecolor="00754F49" backcolor="00FEF8EB"/>
+				<data name="blnt_sctn_bdcd_nm" width="0" forecolor="00363636" text_wordellipsis="0" max_length="100" bargauge_transparent="0"/>
+			</column>
+			<column>
+				<header title="소속팀부점코드" forecolor="00754F49" backcolor="00FEF8EB"/>
+				<data name="blnt_team_bdcd" width="0" forecolor="00363636" text_wordellipsis="0" max_length="4" bargauge_transparent="0"/>
+			</column>
+			<column>
+				<header title="팀부점코드명" forecolor="00754F49" backcolor="00FEF8EB"/>
+				<data name="blnt_team_bdcd_nm" width="0" forecolor="00363636" text_wordellipsis="0" max_length="100" bargauge_transparent="0"/>
+			</column>
+			<column>
+				<header title="부점전화번호" forecolor="00754F49" backcolor="00FEF8EB"/>
+				<data name="brdp_tlnm" width="0" forecolor="00363636" text_wordellipsis="0" max_length="20" bargauge_transparent="0"/>
+			</column>
+			<column>
+				<header title="담당자전화번호" forecolor="00754F49" backcolor="00FEF8EB"/>
+				<data name="prch_tlnm" width="0" forecolor="00363636" text_wordellipsis="0" max_length="20" bargauge_transparent="0"/>
+			</column>
+			<column>
+				<header title="등록첨부파일목록" forecolor="00754F49" backcolor="00FEF8EB"/>
+				<data name="rgs_atch_fle_ctl" width="0" forecolor="00363636" text_wordellipsis="0" max_length="300" bargauge_transparent="0"/>
+			</column>
+			<column>
+				<header title="조치첨부파일목록" forecolor="00754F49" backcolor="00FEF8EB"/>
+				<data name="act_atch_fle_ctl" width="0" forecolor="00363636" text_wordellipsis="0" max_length="300" bargauge_transparent="0"/>
+			</column>
+			<column>
+				<header title="등록사원번호" forecolor="00754F49" backcolor="00FEF8EB"/>
+				<data name="frs_rgs_empno" width="0" forecolor="00363636" text_wordellipsis="0" max_length="5" bargauge_transparent="0"/>
+			</column>
+			<column>
+				<header title="등록자" forecolor="00754F49" backcolor="00FEF8EB"/>
+				<data name="rgs_emp_nm" width="67" forecolor="00363636" text_wordellipsis="0" max_length="40" bargauge_transparent="0"/>
+			</column>
+			<column>
+				<header title="등록일시" forecolor="00754F49" backcolor="00FEF8EB"/>
+				<data name="frs_rgs_dttm" width="120" forecolor="00363636" text_wordellipsis="0" max_length="14" pattern="YYYY-MM-DD HH:MM:SS" bargauge_transparent="0"/>
+			</column>
+			<headermegeinfo info=""/>
+		</grid>
+		<pushbutton style="BTN_COLOR2" control_id="458" name="btnNext" anchor="2" x="900" y="756" right="29" bottom="41" width="51" height="20" text="다음" font="맑은 고딕,9,0,0,0,0" drawfocusrect="0" hover_font="맑은 고딕,9,0,0,0,0" version="1.1" on_mouseup="eventfunc:btnNext_on_mouseup(objInst)"/>
+		<hangul_field style="KORFLD" control_id="630" name="next_ky" x="345" y="761" right="331" bottom="36" width="304" height="20" font="맑은 고딕,9,0,0,0,0" back_color="0057FF8C" max_length="50" tabstop="0" invalid_text=""/>
+		<numericex_field style="NUMFLD" control_id="623" name="grd_cnt" x="475" y="761" right="466" bottom="36" width="39" height="20" font="맑은 고딕,9,0,0,0,0" back_color="0057FF8C" horz_align="2" enable="0" max_length="5" tabstop="0"/>
+		<text style="TXT_NOTICE" control_id="483" autosize="0" x="3" y="164" right="365" bottom="636" width="612" height="17" text="그리드 데이터 더블 클릭 후 &quot;접수/조치완료/보류/수용불가/결함아님&quot; 처리해주세요." font="맑은 고딕,9,0,0,0,0"/>
+		<pushbutton style="BTN_COLOR5" control_id="450" name="excel_btn" anchor="2" x="876" y="162" right="31" bottom="635" width="73" height="20" text="엑셀 Down" font="맑은 고딕,9,0,0,0,0" drawfocusrect="0" hover_font="맑은 고딕,9,0,0,0,0" version="1.1" on_mouseup="eventfunc:excel_btn_on_mouseup(objInst)"/>
+		<pushbutton style="BTN_COLOR3" control_id="655" name="btnSaveApproval" anchor="2" x="762" y="0" right="126" bottom="797" width="92" height="20" text="통합단말 등록" font="맑은 고딕,9,0,0,0,0" drawfocusrect="0" hover_font="맑은 고딕,9,0,0,0,0" hidden="1" version="1.1" on_mouseup="eventfunc:btnSaveApproval_on_mouseup(objInst)"/>
+		<pushbutton style="BTN_COLOR3" control_id="2568" name="btnRgs" anchor="2" x="858" y="0" right="30" bottom="797" width="92" height="20" text="타시스템 등록" font="맑은 고딕,9,0,0,0,0" drawfocusrect="0" hover_font="맑은 고딕,9,0,0,0,0" hidden="1" version="1.1" on_mouseup="eventfunc:btnRgs_on_mouseup(objInst)"/>
+	</map>
+</map_list>
