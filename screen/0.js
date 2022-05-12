@@ -11,7 +11,9 @@
 	titlebox09.setuserdata("110009");
 	titlebox10.setuserdata("110010");
 } 
-         
+      
+
+   
 /**
 오브젝트 속성 : 1
 오브젝트명 : 2
