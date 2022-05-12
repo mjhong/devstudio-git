@@ -1,35 +1,35 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <map_list>
 	<map>
-		<screen version="2.0" scriptcode="java" title="워크플로우" screen_hashtag="&quot;가나다라&quot;;&quot;1234&quot;;&quot;5678&quot;;" screenid="0" last_update_date="2022-05-10 11:15:48" width="900" width_type="1" height="600" height_type="1" canvas_width="2400" canvas_height="1800" on_load="eventfunc:screen_on_load()" funclist="screen_on_load,procBiz_on_click"/>
+		<screen version="2.0" scriptcode="java" title="워크플로우" screen_hashtag="&quot;가나다라&quot;;&quot;1234&quot;;&quot;5678&quot;;" screenid="0" last_update_date="2022-05-12 16:53:44" width="900" width_type="1" height="600" height_type="1" canvas_width="2400" canvas_height="1800" on_load="eventfunc:screen_on_load()" screen_size="0" funclist="screen_on_load,procBiz_on_click"/>
 		<tab_order order_option="0" order_info="314,254,267,270,268,269,288,273,274,298,289"/>
 		<rectangle control_id="259" x="0" y="300" right="0" bottom="0" width="900" height="300" font="맑은 고딕,9,0,0,0,0" back_color="00F0F0F0" border="0" transparent="0"/>
 		<text control_id="262" autosize="0" x="0" y="0" right="800" bottom="300" width="100" height="300" text="해당지도부서&#x0D;&#x0A;(코드승인&#x0D;&#x0A;담당자)" font="맑은 고딕,9,0,0,0,0" border_ex="0,0,00B4B4B4,,0,,0,0,1,0,00FFFFFF,00E1E1E1^0,0,00B4B4B4,1^1,1,00B4B4B4,1^0,0,00B4B4B4,1^0,0,00B4B4B4,1" horz_align="1" version="1.1"/>
 		<text control_id="263" autosize="0" x="0" y="300" right="800" bottom="0" width="100" height="300" text="해당사업장" font="맑은 고딕,9,0,0,0,0" back_color="00F0F0F0" border_ex="0,0,00B4B4B4,,0,,0,0,1,0,00FFFFFF,00E1E1E1^0,0,00B4B4B4,1^1,1,00B4B4B4,1^0,0,00B4B4B4,1^0,0,00B4B4B4,1" horz_align="1" version="1.1"/>
-		<flowline control_id="264" x="174" y="42" point_arr="174,42;174,78" right="693" bottom="522" line_width="1" arrow_style="1" connect_start="252,2" connect_end="286,0"/>
-		<flowline control_id="265" x="174" y="114" point_arr="174,114;174,150" right="693" bottom="450" line_width="1" arrow_style="1" connect_start="286,2" connect_end="254,0"/>
-		<flowline control_id="266" x="174" y="222" point_arr="174,222;174,258" right="726" bottom="342" line_width="1" arrow_style="1" connect_start="254,2" connect_end="255,0"/>
+		<flowline control_id="264" x="174" y="42" point_arr="174,42;174,78" right="693" bottom="522" connect_start="252,2" connect_end="286,0" line_width="1" arrow_style="1"/>
+		<flowline control_id="265" x="174" y="114" point_arr="174,114;174,150" right="693" bottom="450" connect_start="286,2" connect_end="254,0" line_width="1" arrow_style="1"/>
+		<flowline control_id="266" x="174" y="222" point_arr="174,222;174,258" right="726" bottom="342" connect_start="254,2" connect_end="255,0" line_width="1" arrow_style="1"/>
 		<ellipse control_id="255" x="147" y="258" right="699" bottom="312" width="54" height="30" text="END" font="맑은 고딕,9,0,0,0,0" border_color="00000000" transparent="0"/>
 		<arrowbox control_id="252" x="147" y="12" right="699" bottom="558" width="54" height="30" text="상품&#x0D;&#x0A;발생" font="맑은 고딕,9,0,0,0,0" border_color="00000000" transparent="0" arrow_width="10"/>
 		<ellipse control_id="275" x="795" y="468" right="51" bottom="102" width="54" height="30" text="END" font="맑은 고딕,9,0,0,0,0" border_color="00000000" transparent="0"/>
-		<flowline control_id="277" x="546" y="237" point_arr="546,237;546,336" right="354" bottom="264" line_width="1" arrow_style="1" connect_start="268,2" connect_end="273,0"/>
-		<flowline control_id="278" x="822" y="222" point_arr="822,222;822,336" right="78" bottom="264" line_width="1" arrow_style="1" connect_start="270,2" connect_end="274,0"/>
-		<flowline control_id="279" x="822" y="408" point_arr="822,408;822,468" right="78" bottom="132" line_width="1" arrow_style="1" connect_start="274,2" connect_end="275,0"/>
-		<flowline control_id="280" x="546" y="408" point_arr="546,408;546,468" right="354" bottom="132" line_width="1" arrow_style="1" connect_start="273,2" connect_end="276,0"/>
+		<flowline control_id="277" x="546" y="237" point_arr="546,237;546,336" right="354" bottom="264" connect_start="268,2" connect_end="273,0" line_width="1" arrow_style="1"/>
+		<flowline control_id="278" x="822" y="222" point_arr="822,222;822,336" right="78" bottom="264" connect_start="270,2" connect_end="274,0" line_width="1" arrow_style="1"/>
+		<flowline control_id="279" x="822" y="408" point_arr="822,408;822,468" right="78" bottom="132" connect_start="274,2" connect_end="275,0" line_width="1" arrow_style="1"/>
+		<flowline control_id="280" x="546" y="408" point_arr="546,408;546,468" right="354" bottom="132" connect_start="273,2" connect_end="276,0" line_width="1" arrow_style="1"/>
 		<text control_id="286" autosize="0" x="114" y="78" right="666" bottom="486" width="120" height="36" text="계통계약 또는&#x0D;&#x0A;신규상품 발생" font="맑은 고딕,9,0,0,0,0" border="1" border_color="00000000" horz_align="1" version="1.1"/>
 		<text control_id="287" autosize="3" x="486" y="246" right="361" bottom="339" width="53" height="15" text="승인/반려" font="맑은 고딕,9,0,0,0,0" transparent="1" horz_align="1" version="1.1"/>
-		<flowline control_id="291" x="396" y="222" point_arr="396,336;396,222" right="504" bottom="264" line_width="1" arrow_style="1" connect_start="288,0" connect_end="267,2"/>
-		<flowline control_id="294" x="456" y="200" point_arr="456,200;471,200;471,201;486,201" right="414" bottom="399" line_width="1" arrow_style="1" connect_start="267,1" connect_end="268,3"/>
+		<flowline control_id="291" x="396" y="222" point_arr="396,336;396,222" right="504" bottom="264" connect_start="288,0" connect_end="267,2" line_width="1" arrow_style="1"/>
+		<flowline control_id="294" x="456" y="200" point_arr="456,200;471,200;471,201;486,201" right="414" bottom="399" connect_start="267,1" connect_end="268,3" line_width="1" arrow_style="1"/>
 		<diamond control_id="297" x="216" y="366" right="606" bottom="192" width="78" height="42" text="신규" font="맑은 고딕,9,0,0,0,0" border_color="00000000" transparent="0"/>
 		<arrowbox control_id="299" x="150" y="552" right="696" bottom="18" width="54" height="30" text="상품&#x0D;&#x0A;발생" font="맑은 고딕,9,0,0,0,0" border_color="00000000" transparent="0" arrow_width="10"/>
 		<text control_id="301" autosize="3" x="294" y="246" right="510" bottom="324" width="96" height="30" text="사업유형&#x0D;&#x0A;승인자별내역확인" font="맑은 고딕,9,0,0,0,0" transparent="1" horz_align="1" version="1.1"/>
 		<text control_id="303" autosize="3" x="294" y="366" right="588" bottom="219" width="18" height="15" text="Yes" font="맑은 고딕,9,0,0,0,0" transparent="1" horz_align="1" version="1.1"/>
-		<flowline control_id="304" x="294" y="386" point_arr="294,386;336,386" right="0" bottom="0" line_width="1" arrow_style="1" connect_start="297,1" connect_end="288,3"/>
-		<flowline control_id="307" x="173" y="387" point_arr="173,444;173,387;216,387" right="684" bottom="156" line_width="1" arrow_style="1" connect_start="298,0" connect_end="297,3"/>
+		<flowline control_id="304" x="294" y="386" point_arr="294,386;336,386" right="0" bottom="0" connect_start="297,1" connect_end="288,3" line_width="1" arrow_style="1"/>
+		<flowline control_id="307" x="173" y="387" point_arr="173,444;173,387;216,387" right="684" bottom="156" connect_start="298,0" connect_end="297,3" line_width="1" arrow_style="1"/>
 		<text control_id="308" autosize="3" x="126" y="348" right="692" bottom="222" width="82" height="30" text="비표준공산품&#x0D;&#x0A;일반/비료/농약" font="맑은 고딕,9,0,0,0,0" transparent="1" horz_align="1" version="1.1"/>
-		<flowline control_id="309" x="256" y="408" point_arr="256,408;256,526;336,526" right="564" bottom="74" line_width="1" arrow_style="1" connect_start="297,2" connect_end="289,3"/>
+		<flowline control_id="309" x="256" y="408" point_arr="256,408;256,526;336,526" right="564" bottom="74" connect_start="297,2" connect_end="289,3" line_width="1" arrow_style="1"/>
 		<text control_id="310" autosize="3" x="270" y="504" right="582" bottom="81" width="48" height="15" text="No(변경)" font="맑은 고딕,9,0,0,0,0" transparent="1" horz_align="1" version="1.1"/>
-		<flowline control_id="311" x="175" y="516" point_arr="175,552;175,516" right="0" bottom="0" line_width="1" arrow_style="1" connect_start="299,0" connect_end="298,2"/>
+		<flowline control_id="311" x="175" y="516" point_arr="175,552;175,516" right="0" bottom="0" connect_start="299,0" connect_end="298,2" line_width="1" arrow_style="1"/>
 		<titlebox control_id="288" name="titlebox06" x="336" y="336" right="444" bottom="192" width="120" height="72" text="11-0006&#x0D;&#x0A;상품등록/신청" font="맑은 고딕,9,0,0,0,0" title="통합기준정보" title_font="맑은 고딕,9,1,0,0,0" border_color="00000000" transparent="0" title_transparent="0" on_click="eventfunc:procBiz_on_click(objInst)"/>
 		<titlebox control_id="267" name="titlebox02" x="336" y="150" right="444" bottom="378" width="120" height="72" text="11-0002&#x0D;&#x0A;상품신청내역조회" font="맑은 고딕,9,0,0,0,0" title="통합기준정보" title_font="맑은 고딕,9,1,0,0,0" border_color="00000000" transparent="0" title_transparent="0" on_click="eventfunc:procBiz_on_click(objInst)"/>
 		<titlebox control_id="268" name="titlebox03" x="486" y="165" right="294" bottom="363" width="120" height="72" text="11-0003&#x0D;&#x0A;상품등록승인" font="맑은 고딕,9,0,0,0,0" title="통합기준정보" title_font="맑은 고딕,9,1,0,0,0" border_color="00000000" transparent="0" title_transparent="0" on_click="eventfunc:procBiz_on_click(objInst)"/>
@@ -39,10 +39,10 @@
 		<titlebox control_id="289" name="titlebox10" x="336" y="474" right="444" bottom="54" width="120" height="72" text="11-0010&#x0D;&#x0A;상품수령/신청" font="맑은 고딕,9,0,0,0,0" title="통합기준정보" title_font="맑은 고딕,9,1,0,0,0" border_color="00000000" transparent="0" title_transparent="0" on_click="eventfunc:procBiz_on_click(objInst)"/>
 		<titlebox control_id="298" name="titlebox09" x="114" y="444" right="666" bottom="84" width="120" height="72" text="11-0009&#x0D;&#x0A;상품조회" font="맑은 고딕,9,0,0,0,0" title="통합기준정보" title_font="맑은 고딕,9,1,0,0,0" border_color="00000000" transparent="0" title_transparent="0" on_click="eventfunc:procBiz_on_click(objInst)"/>
 		<titlebox control_id="254" name="titlebox01" x="114" y="150" right="666" bottom="378" width="120" height="72" text="11-0001&#x0D;&#x0A;비표준2차상품등록" font="맑은 고딕,9,0,0,0,0" title="통합기준정보" title_font="맑은 고딕,9,1,0,0,0" border_color="00000000" transparent="0" title_transparent="0" on_click="eventfunc:procBiz_on_click(objInst)"/>
-		<flowline control_id="312" x="456" y="246" point_arr="456,518;690,518;690,246" right="210" bottom="82" line_width="1" arrow_style="1" connect_start="289,1" connect_end="269,2"/>
+		<flowline control_id="312" x="456" y="246" point_arr="456,518;690,518;690,246" right="210" bottom="82" connect_start="289,1" connect_end="269,2" line_width="1" arrow_style="1"/>
 		<ellipse control_id="276" x="519" y="468" right="327" bottom="102" width="54" height="30" text="END" font="맑은 고딕,9,0,0,0,0" border_color="00000000" transparent="0"/>
 		<titlebox control_id="273" name="titlebox07" x="486" y="336" right="294" bottom="192" width="120" height="72" text="11-0007&#x0D;&#x0A;상품신청내역조회" font="맑은 고딕,9,0,0,0,0" title="통합기준정보" title_font="맑은 고딕,9,1,0,0,0" border_color="00000000" transparent="0" title_transparent="0" on_click="eventfunc:procBiz_on_click(objInst)"/>
-		<flowline control_id="313" x="396" y="83" point_arr="396,150;396,83;690,83;690,174" right="210" bottom="426" arrow_style="1" connect_start="267,0" connect_end="269,0"/>
-		<pushbutton control_id="314" x="292" y="40" right="508" bottom="534" width="100" height="26" font="맑은 고딕,9,0,0,0,0" hover_font="맑은 고딕,9,0,0,0,0" version="1.1"/>
+		<flowline control_id="313" x="396" y="83" point_arr="396,150;396,83;690,83;690,174" right="210" bottom="426" connect_start="267,0" connect_end="269,0" arrow_style="1"/>
+		<pushbutton control_id="314" x="270" y="24" right="530" bottom="550" width="100" height="26" font="맑은 고딕,9,0,0,0,0" hover_font="맑은 고딕,9,0,0,0,0" version="1.1"/>
 	</map>
 </map_list>
